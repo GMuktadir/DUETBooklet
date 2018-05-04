@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techfar.service.duetbooklet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/dept"
+            android:parentActivityName=".HomeActivity">
+
+            <!--
+                    <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DepartmentActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".ActActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".RulesActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".YearActivity"
+            android:label="Year and Semester" />
+        <activity
+            android:name=".CseActivity"
+            android:label="CSE" />
+        <activity
+            android:name=".EeeActivity"
+            android:label="EEE" />
+        <activity
+            android:name=".MeActivity"
+            android:label="ME" />
+        <activity
+            android:name=".TeActivity"
+            android:label="TE" />
+        <activity
+            android:name=".ArchActivity"
+            android:label="Architecture" />
+        <activity
+            android:name=".IpeActivity"
+            android:label="IPE" />
+        <activity
+            android:name=".CeActivity"
+            android:label="CE" />
+        <activity
+            android:name=".FeActivity"
+            android:label="FE" />
+        <activity
+            android:name=".ProgramActivity"
+            android:label="Program" />
+        <activity
+            android:name=".booklet"
+            android:label="booklet" />
+        <activity android:name=".FirstYearSecondSemester"
+                  android:screenOrientation="landscape"
+                    android:parentActivityName=".YearActivity"/>
+        <activity android:name=".SecondYearFirstSemester"></activity>
+    </application>
+
+</manifest>

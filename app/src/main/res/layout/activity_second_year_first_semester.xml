@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.techfar.service.duetbooklet.SecondYearFirstSemester">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="2nd Year 1st Semester"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:textSize="20sp"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:layout_span="4"
+
+
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                >
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Sl."
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Course No."
+                android:textAlignment="center"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Course Title"
+                android:padding="3dip"
+                android:textAlignment="center"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Credit"
+                android:layout_marginRight="3dp"
+                android:textAlignment="center"
+                android:padding="3dip"
+                >
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="1"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="CSE-1121"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Structured Programming Language"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="4.0"
+                android:padding="3dip"
+                >
+            </TextView>
+
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="2"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="CSE-1122"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Structured Programming Language Sessional"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="1.5"
+                android:padding="3dip"
+                >
+            </TextView>
+
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="CSE-1823"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Digital Logic and System Design"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="3"
+                android:padding="3dip"
+                >
+            </TextView>
+
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="4"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="CSE-1824"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Digital Logic and System Design Sessional"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="0.75"
+                android:padding="3dip"
+                >
+            </TextView>
+
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="5"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="CSE-1124"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Drawing and CAD Project Sessional"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="0.75"
+                android:padding="3dip"
+                >
+            </TextView>
+
+
+
+        </TableRow>
+
+
+    </TableLayout>
+</LinearLayout>

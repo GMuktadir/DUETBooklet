@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.techfar.service.duetbooklet.FirstYearSecondSemester">
+
+    <TableLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fad3cd"
+        android:stretchColumns="2"
+        >
+        <TableRow android:background="#c22c15">
+            <TextView
+            style="@style/BookletTextViewHead"
+            android:layout_column="1"
+            android:text="1st Year 2nd Semester"
+            android:padding="3dip"
+            android:layout_span="4"
+            android:fontFamily="serif"
+                >
+        </TextView>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                style="@style/BookletTextViewSubHead"
+                android:layout_column="1"
+                android:text="Sl."
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewSubHead"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Course No."
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewSubHead"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Course Title"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewSubHead"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Credit"
+                android:padding="3dip"
+                >
+            </TextView>
+        </TableRow>
+
+        <TableRow >
+            <TextView
+                android:layout_column="1"
+                android:text="1"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="CSE-1121"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Structured Programming Language"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="4.0"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="2"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="CSE-1122"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Structured Programming Language Sessional"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="1.5"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="CSE-1823"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Digital Logic and System Design"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="3"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="4"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="CSE-1824"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Digital Logic and System Design Sessional"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="0.75"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="5"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="CSE-1124"
+                android:layout_gravity="center"
+                android:autoSizeTextType="uniform"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Drawing and CAD Project Sessional"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="0.75"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+
+
+
+        </TableRow>
+        <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="6"
+            android:padding="3dip"
+            android:autoSizeTextType="uniform"
+            >
+        </TextView>
+        <TextView
+            android:layout_column="1"
+            android:gravity="right"
+            android:text="Math-1421"
+            android:layout_gravity="center"
+            android:padding="3dip"
+            android:autoSizeTextType="uniform"
+            >
+        </TextView>
+        <TextView
+            style="@style/BookletTextViewNormal"
+            android:layout_column="1"
+            android:gravity="right"
+            android:text="Mathematics – II"
+            android:padding="3dip"
+            >
+        </TextView>
+        <TextView
+            android:layout_column="1"
+            android:gravity="right"
+            android:text="4.0"
+            android:padding="3dip"
+            android:autoSizeTextType="uniform"
+            >
+        </TextView>
+    </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="7"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Ph-1423"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Physics – II"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="4.0"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="8"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Ph-1424"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Physics – II Sessional"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="0.75"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="9"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Hum-1427"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="English and Economics"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="3.0"
+                android:padding="3dip"
+
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/BookletTextViewSubHead"
+                android:layout_column="1"
+                android:text="Total"
+                android:padding="3dip"
+                android:textAlignment="inherit"
+                android:layout_span="3"
+
+
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewSubHead"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:text="21.75"
+                >
+            </TextView>
+        </TableRow>
+
+
+    </TableLayout>
+</LinearLayout>
+</ScrollView>

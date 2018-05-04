@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">DUETBooklet</string>
+    <string name="dept">Departments</string>
+    <string name="para">A parse pictorially shows how the start symbol of a grammar derives a string in the language. If nonterminal A has a production A-> XYZ, then a parse tree may have an interior node labeled A with three children labeled X,Y and Z , from left to right.A parse pictorially shows how the start symbol of a grammar derives a string in the language. If nonterminal A has a production A-> XYZ, then a parse tree may have an interior node labeled A with three children labeled X,Y and Z , from left to right.</string>
+    <string-array name="departments">
+        <item>Department of Computer Science and Engineering</item>
+        <item>Department of Electrical and Electronic Engineering</item>
+        <item>Department of Mechanical Engineering</item>
+        <item>Department of Textile Engineering</item>
+        <item>Department of Architecture</item>
+        <item>Department of Industrial and Production Engineering</item>
+        <item>Department of Civil Engineering</item>
+        <item>Department of Food Engineering</item>
+
+    </string-array>
+    <string-array name="programme">
+        <item>Under Graduate Programme</item>
+        <item>Post Graduate Programme</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>First Year Second Semester</item>
+        <item>Second Year First Semester</item>
+        <item>Second Year Second Semester</item>
+        <item>Third Year First Semester</item>
+        <item>Third Year Second  Semester</item>
+        <item>Fourth Year First Semester</item>
+        <item>Fourth Year Second Semester</item>
+    </string-array>
+    <string-array name="yearpost">
+        <item>First Year</item>
+        <item>Second Year</item>
+    </string-array>
+
+    <string-array name="menu">
+        <item>Departments</item>
+        <item>Act</item>
+        <item>Rules</item>
+        <item>About</item>
+    </string-array>
+    <string name="cseh">Department of Computer Science and Engineering</string>
+    <string name="cse">
+        In order to prepare potential and productive persons in industry, academia, as well as in government sector, in the undergraduate and postgraduate programs of the department of CSE of DUET, an excellent environment of teaching, learning, and research in computing and IT has been maintained from the very past. In particular, to perform world-class research in selected areas of computing (such as Speech Signal Processing, Advanced Microprocessor Architecture, Reliable and Low Power Multi-core Processor Design, Data Warehouse and Mining, Operating Systems, Wireless Network, Networking, Image Processing and Computer Vision, Artificial Intelligence and Neural Network, Algorithm Design and Analysis). The mission of the department is to earn reputation nationally and internationally for research in different areas. The faculty members are enriched in diversified fields and are involved in updated research work. To provide quality, cutting-edge educational experiences, the department aims to provide students with strong conceptual foundations, and also expose them to the forefront of the developments in the field of computing. The department’s other vision includes providing state-of-the-art computer education and training to all students at DUET to bring them to the level of knowledge and ability.
+        The Department of Computer Science and Engineering maintains well-equipped laboratories for graduate and undergraduate research work. The laboratories are: (1) Software lab, (2) Network lab, (3) Digital Electronics lab, and (4) Multimedia lab. In addition, a BdREN datacenter maintained by the CSE department has the most advanced servers, routers, and switches.
+        Scope of Computer Science and Engineering
+        The academic objectives of the Department of Computer Science and Engineering (CSE) are to provide outstanding education and research programs that can:Promote a philosophy of learning with the development of a computer science/engineering student body to be prepared for their specific profession, for advanced studies and careers in research with multidisciplinary knowledge.Provide a stimulating academic research environment for individuals who would be capable to work in both industry and academia, and would be the leaders in the demonstration of professional skills and in the development of new technology for the benefit of society.
+        For more Information
+        Head
+        Department of Computer Science and Engineering
+        Dhaka University of Engineering and Technology, Gazipu
+        Gazipur-1700
+        Phone : +88-02-9204711, +88-02-9204734-53, Ext. 3201 (Off.)
+        Fax : +88-02-9204701, +88-02-9204702
+        E-mail: head_cse@duet.ac.bd
+        Web : www.duet.ac.bd/cse
+    </string>
+
+    <string name="eeeh">Department of Electrical and Electronics Engineering</string>
+    <string name="eee">
+    Electricity is the most conducive part of the modern technology based life. Even all other technology, which is thought as munificent to human life, is also electricity or electronically controlled. The professional activities of electrical engineers directly affect the everyday lives of most of the world’s population. They are responsible for the design and development of radio and television transmitters and receivers, telephone networks and switching systems, computer systems, and electric power generation and distribution. Within the broad scope of these systems, the electrical engineer is concerned with a challenging and diverse array of design and development problems. The students who earn a B. Sc. Engineering degree from the department of Electrical and Electronic Engineering will be involved in a variety of electrical and electronic problems in the course of their careers.
+    Scope of Electrical and Electronic Engineering
+    The Department of Electrical and Electronic Engineering plays a major role in the development of science and technology. This role is more important as the use of electronic devices and electric power is increasing in many technologies, such as VLSI, lasers, material processing, optoelectronic devices, robotics, communication, computer technology, micro-machine, electric power supply, various types of control systems etc. Since the areas covered by Electrical and Electronic Engineering are increasing, the Department provides a broad curriculum to its students to adequately address those issues. Hence The students can choose their educational program according to their interests. They can choose a program that is partly related to electronic devices, electronic applications, and/or computer and communication. Besides the theoretical knowledge, intensive care is also given so that an engineer becomes pragmatic in terms of his/her respective area of specialization. In addition, the Department of Electrical and Electronic Engineering of DUET, Gazipur offers postgraduate studies and research for higher degree leading to M. Sc. Engg., M. Engg. and Ph. D. To reciprocate such venture, the department offers financial assistance to the brilliant students. The Department is also incarnated with other activities, such as, expert level training on the appropriate field for the faculty members to develop human resources, consulting different organizations to facilitate them and exchanging knowledge with different national and international universities, etc.
+    For more Information
+    Head
+    Department of Electrical and Electronic Engineering
+    Dhaka University of Engineering and Technology, Gazipur
+    Gazipur-1700
+    Phone : +88-02-9204709, +88-02-9204734-53, Ext. 3011 (Off.)
+    Fax : +88-02- 9204709, +88-02- 9204702
+    E-mail: Head_eee@duet.ac.bd
+    Web : www.duet.ac.bd/eee
+    </string>
+    <string name="meh">Department of Mechanical Engineering </string>
+    <string name="me">
+        Scope of Electrical and Electronic Engineering
+    The Department of Electrical and Electronic Engineering plays a major role in the development of science and technology. This role is more important as the use of electronic devices and electric power is increasing in many technologies, such as VLSI, lasers, material processing, optoelectronic devices, robotics, communication, computer technology, micro-machine, electric power supply, various types of control systems etc. Since the areas covered by Electrical and Electronic Engineering are increasing, the Department provides a broad curriculum to its students to adequately address those issues. Hence The students can choose their educational program according to their interests. They can choose a program that is partly related to electronic devices, electronic applications, and/or computer and communication. Besides the theoretical knowledge, intensive care is also given so that an engineer becomes pragmatic in terms of his/her respective area of specialization. In addition, the Department of Electrical and Electronic Engineering of DUET, Gazipur offers postgraduate studies and research for higher degree leading to M. Sc. Engg., M. Engg. and Ph. D. To reciprocate such venture, the department offers financial assistance to the brilliant students. The Department is also incarnated with other activities, such as, expert level training on the appropriate field for the faculty members to develop human resources, consulting different organizations to facilitate them and exchanging knowledge with different national and international universities, etc.
+    For more Information
+    Head
+    </string>
+    <string name="csetext">Department of Computer Science and Engineering
+Undergraduate Curriculum
+
+Syllabus  Session (2015-2016)
+1st Year 1st Semester (Exempted)
+Sl.	Course No.	Course Title	Cr.
+1	Math-141	Mathematics – I	3
+2	Ph-141	Physics – I	3
+3	Ph-142	Physics – I Sessional	1.5
+4	Ch-141	Chemistry-I	3
+5	Ch-142	Chemistry-I Sessional	1.5
+6	CSE-115	Computer Fundamentals	3
+7	CSE-116	Computer Fundamentals Sessional	1.5
+8	Hum-141	Government and Sociology	4
+Total	20.5
+ 
+1st Year 2nd Semester
+Sl.	Course No.	Course Title	Cr.
+1	CSE-1121	Structured Programming Language	4
+2	CSE-1122	Structured Programming Language Sessional	1.5
+3	 CSE-1823	Digital Logic and System Design	3
+4	CSE-1824	Digital Logic and System Design Sessional	0.75
+5	CSE-1124	Drawing and CAD Project Sessional	0.75
+6	Math-1421	Mathematics – II	4
+7	Ph-1423	Physics – II	4
+8	Ph-1424	Physics – II Sessional	0.75
+9	Hum-1427	English and Economics	3
+Total	21.75
+</string>
+    <string name="rules">
+        "1. Definitions
+1.1 University; means the Dhaka University of Engineering Technology, Gazipur abbreviated as DUET, Gazipur.
+1.2    ‘Syndicate’ means the Syndicate of the University,
+1.3    ‘Academic Council’ means the Academic Council of the University.
+1.4    ‘Chancellor’ means the Chancellor of the University.
+1.5    ‘Vice-Chancellor’ means the Vice-Chancellor of the University.
+1.6    ‘Dean’ means the Dean of a faculty of the University.
+1.7    ‘Head of the Department’ means the Head of a department of the University.
+1.8    ‘Registrar’ means the Registrar of the University.
+1.9    ‘Academic Committee’ means the Academic Committee for Undergraduate Studies (ACUG) of a degree awarding department of the University.
+1.10    ‘Degree’ means the degree of Bachelor of Science in a particular discipline of Engineering offered by the University.
+1.11    ‘Departmental Monitoring Committee’ means the Committee for upgrading/changing the Undergraduate Curriculum and the Course system and monitoring the teacher-student activities.
+1.12    ‘Degree Equivalence Committee’ means the committee for equivalencing different degrees obtained from home and/or abroad.
+1.13    ‘Teacher’ means Professor, Associate Professor, Assistant Professor, Lecturer and any other person approved as a teacher by the University.
+1.14   ‘Student’ means Student who has been admitted into the regular academic curriculum of the University.
+2. Faculties
+The University shall have the following Faculties:
+(i) Faculty of Civil Engineering is comprised of
+(a)  Department of Civil Engineering
+(b)  Department of Architecture
+(ii) Faculty of Electrical and Electronic Engineering is comprised of
+(a) Department of Electrical and Electronic Engineering
+(b) Department of Computer Science and Engineering
+(iii) Faculty of Mechanical Engineering is comprised of
+(a)  Department of Mechanical Engineering
+(b)  Department of Textile Engineering
+(c)  Department of Industrial  Production Engineering
+(d)  Department of Chemical  Food Engineering
+(iv) Faculty of Engineering is comprised of
+(a)  Department of Chemistry
+(b)  Department of Mathematics
+(c)  Department of Physics
+(d)  Department of Humanities  Social Sciences
+(e)  Department of Materials Science  Engineering
+(v) Any other Faculty to be instituted by the Syndicate on the recommendation of the Academic Council from time to time.
+3. Departments:
+The University shall have the following Departments:
+3.1 Degree-Awarding Departments
+(i)   Department of Civil Engineering
+(ii) Department of Electrical and Electronic Engineering
+(iii) Department of Mechanical Engineering
+(iv) Department of Computer Science and Engineering
+(v) Department of Textile Engineering
+(vi) Any other department to be instituted by the Syndicate on the recommendation of the Academic Council from time to time.
+3.2     Teaching Departments:
+(i)      Department of Civil Engineering
+(ii)      Department of Electrical and Electronic Engineering
+(iii)     Department of Mechanical Engineering
+(iv)     Department of Computer Science and Engineering
+(v)     Department of Textile Engineering
+(vi)     Department of Mathematics
+(vii)    Department of Physics
+(viii)   Department of Chemistry
+(ix)     Department of Humanities
+(x)     Any other department that may be instituted by the Syndicate on the recommendation of the Academic Council from time to time.
+4. Degrees Offered.
+The University shall offer courses leading to the award of the following degrees:
+i.	Bachelor of Science in Civil Engineering abbreviated as  B. Sc. Engineering (Civil)
+ii.	Bachelor of Science in Computer Science and Engineering abbreviated as B. Sc. Engineering (Computer Science and Engi¬neering)
+iii.	Bachelor of Science in Electrical and Electronic Engineering abbreviated as B. Sc. Engineering (Electrical and Electronic)
+iv.	achelor of Science in Mechanical Engineering abbreviated as B. Sc. Engineering (Mechanical)
+v.	Bachelor of Science in Textile Engineering abbreviated as B. Sc. Engineering (Textile)
+vi.	 Any other degree that may be awarded by a department with the approval of the syndicate on recommendation of the Academic Council from time to time.
+5. Student Admission
+5.1 The four academic years of study for the degree of B. Sc. Engineering shall be designated as first year class, second year class, third year class and fourth year class in succeeding higher levels of study. Each academic year comprises two semesters, i.e., 1st and 2nd semester. Students shall generally be admitted into the 1st year 2nd semester class. The 1st semester of 1st year class is exempted because of the candidates’ completion of minimum 3 or 4 years Diploma in Engineering backgrounds after 10 years of schooling.
+5.2    An Admission Committee shall be formed in each academic session by the Academic Council for admission into 1st year B.Sc. Engg. program.
+5.3    A candidate for admission into the 1st year class must have passed the minimum 3 or 4 years Diploma in Engineering examination from Bangladesh Technical Education Board (after 10 years of schooling) or any examination recognized as equivalent there to and must also fulfill all other requirements as may be prescribed by the Admission Committee. In case of confusion regarding the equivalence the case may be referred to the Degree Equivalence Committee. However, a candidate must fulfill the requirements mentioned below:
+
+    </string>
+
+</resources>

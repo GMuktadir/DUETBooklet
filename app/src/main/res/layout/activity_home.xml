@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92cf91"
+    tools:context="com.techfar.service.duetbooklet.HomeActivity">
+
+    <GridView
+        android:id="@+id/gvid"
+        android:numColumns="2"
+        android:listSelector="#ff5e52"
+        android:padding="20dp"
+        android:horizontalSpacing="20dp"
+        android:verticalSpacing="20dp"
+        android:columnWidth="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </GridView>
+
+</LinearLayout>
