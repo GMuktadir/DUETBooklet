@@ -8,6 +8,6 @@ public class SecondYearFirstSemester extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second_year_first_semester);
+        setContentView(R.layout.activity_cse_second_year_first_semester);
     }
 }
