@@ -13,11 +13,10 @@ public class HomeActivity extends AppCompatActivity {
 
     String[] menu;
     int[] menuicon={
-            R.drawable.microchip,
-            R.drawable.mortarboard,
-            R.drawable.devices,
-            R.drawable.bell,
-            R.drawable.blackboard
+            R.drawable.booklet,
+            R.drawable.act,
+            R.drawable.rules,
+            R.drawable.profile
     };
 
     @Override
@@ -39,7 +38,7 @@ try {
             String value = menu[i];
                 /*Toast.makeText(HomeActivity.this,value+" index "+i,Toast.LENGTH_SHORT).show();*/
 
-            if (value.equals("Departments")) {
+            if (value.equals("Booklet")) {
                 Intent intentDepart = new Intent(HomeActivity.this, MainActivity.class);
                 startActivity(intentDepart);
             } else if (value.equals("Act")) {

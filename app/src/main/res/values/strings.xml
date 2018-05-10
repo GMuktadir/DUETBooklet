@@ -33,10 +33,11 @@
     </string-array>
 
     <string-array name="menu">
-        <item>Departments</item>
+        <item>Booklet</item>
         <item>Act</item>
         <item>Rules</item>
         <item>About</item>
+
     </string-array>
     <string name="cseh">Department of Computer Science and Engineering</string>
     <string name="cse">

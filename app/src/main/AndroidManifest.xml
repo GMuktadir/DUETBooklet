@@ -14,21 +14,10 @@
             android:label="@string/dept"
             android:parentActivityName=".HomeActivity">
 
-            <!--
-                    <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            -->
         </activity>
         <activity
             android:name=".HomeActivity"
             android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".DepartmentActivity"
@@ -75,10 +64,19 @@
         <activity
             android:name=".booklet"
             android:label="booklet" />
-        <activity android:name=".FirstYearSecondSemester"
-                  android:screenOrientation="landscape"
-                    android:parentActivityName=".YearActivity"/>
-        <activity android:name=".SecondYearFirstSemester"></activity>
+        <activity
+            android:name=".FirstYearSecondSemester"
+            android:parentActivityName=".YearActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".SecondYearFirstSemester" />
+
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

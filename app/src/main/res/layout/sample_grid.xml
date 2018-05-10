@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="140dp"
     android:orientation="vertical"
-    android:background="#63fc6d"
+    android:background="@drawable/backgroundrepeat"
     android:padding="5dp"
     >
 
@@ -12,8 +12,9 @@
         android:layout_width="100sp"
         android:layout_height="100sp"
         android:scaleType="fitXY"
+        android:background="@drawable/backgroundrepeat130"
         android:layout_gravity="center_horizontal"
-        android:scrollbarStyle="insideInset"
+
         />
     <TextView
         android:id="@+id/gridtitle"
