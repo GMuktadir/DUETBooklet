@@ -8,39 +8,32 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class ProgramActivity extends AppCompatActivity {
+public class EeeYearActivity extends AppCompatActivity {
     private ListView lview;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_program);
+        setContentView(R.layout.activity_eee_year);
 
-       lview=findViewById(R.id.listviewpro);
-        final String[] program = getResources().getStringArray(R.array.programme);
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(ProgramActivity.this, R.layout.sampleview,R.id.lview, program);
+        lview=findViewById(R.id.listviewyear);
+        final String[] year = getResources().getStringArray(R.array.year);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(EeeYearActivity.this, R.layout.sampleview,R.id.lview,year);
         lview.setAdapter(adapter);
 
         lview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
-                String value = program[i];
 
-                if (value.equals("Under Graduate Programme")) {
-                    Intent in = new Intent(ProgramActivity.this, YearActivity.class);
+                String value=year[i];
+                if (value.equals("First Year Second Semester")) {
+                    Intent in = new Intent(EeeYearActivity.this, EeeFirstYearSecondSemester.class);
                     startActivity(in);
-                } else if (value.equals("Post Graduate Programme")) {
-                    Intent in = new Intent(ProgramActivity.this, YearActivity.class);
+                } else if (value.equals("Second Year First Semester")) {
+                    Intent in = new Intent(EeeYearActivity.this, EeeSecondYearFirstSemester.class);
                     startActivity(in);
                 }
-
-
             }
         });
-
-
-
     }
 }

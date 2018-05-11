@@ -10,18 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".DepartmentActivity"
             android:label="@string/dept"
-            android:parentActivityName=".HomeActivity">
-
-        </activity>
+            android:parentActivityName=".HomeActivity" />
         <activity
             android:name=".HomeActivity"
-            android:label="@string/app_name">
-        </activity>
-        <activity
-            android:name=".DepartmentActivity"
-            android:parentActivityName=".HomeActivity" />
+            android:label="@string/app_name" />
         <activity
             android:name=".ActActivity"
             android:parentActivityName=".HomeActivity" />
@@ -32,7 +26,7 @@
             android:name=".AboutActivity"
             android:parentActivityName=".HomeActivity" />
         <activity
-            android:name=".YearActivity"
+            android:name=".CseYearActivity"
             android:label="Year and Semester" />
         <activity
             android:name=".CseActivity"
@@ -41,7 +35,7 @@
             android:name=".EeeActivity"
             android:label="EEE" />
         <activity
-            android:name=".MeActivity"
+            android:name=".MeProgramActivity"
             android:label="ME" />
         <activity
             android:name=".TeActivity"
@@ -59,17 +53,19 @@
             android:name=".FeActivity"
             android:label="FE" />
         <activity
-            android:name=".ProgramActivity"
+            android:name=".CseProgramActivity"
             android:label="Program" />
         <activity
             android:name=".booklet"
             android:label="booklet" />
         <activity
-            android:name=".FirstYearSecondSemester"
-            android:parentActivityName=".YearActivity"
+            android:name=".CseFirstYearSecondSemester"
+            android:parentActivityName=".CseYearActivity"
             android:screenOrientation="landscape" />
-        <activity android:name=".SecondYearFirstSemester" />
-
+        <activity
+            android:name=".CseSecondYearFirstSemester"
+            android:parentActivityName=".CseYearActivity"
+            android:screenOrientation="landscape" />
         <activity android:name=".splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -77,6 +73,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MeFirstYearFirstSemester" />
+        <activity android:name=".EeeProgramActivity" />
+        <activity android:name=".EeeYearActivity" />
+        <activity android:name=".EeeFirstYearSecondSemester" />
+        <activity android:name=".EeeSecondYearFirstSemester" />
+        <activity android:name=".MeYearActivity"></activity>
     </application>
 
 </manifest>

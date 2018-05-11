@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.techfar.service.duetbooklet.ProgramActivity">
+    tools:context="com.techfar.service.duetbooklet.CseProgramActivity">
 
     <ListView
         android:id="@+id/listviewpro"

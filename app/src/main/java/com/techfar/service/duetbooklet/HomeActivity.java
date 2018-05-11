@@ -39,7 +39,7 @@ try {
                 /*Toast.makeText(HomeActivity.this,value+" index "+i,Toast.LENGTH_SHORT).show();*/
 
             if (value.equals("Booklet")) {
-                Intent intentDepart = new Intent(HomeActivity.this, MainActivity.class);
+                Intent intentDepart = new Intent(HomeActivity.this, DepartmentActivity.class);
                 startActivity(intentDepart);
             } else if (value.equals("Act")) {
                 Intent intentAct = new Intent(HomeActivity.this, ActActivity.class);

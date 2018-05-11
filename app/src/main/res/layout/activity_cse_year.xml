@@ -5,18 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.techfar.service.duetbooklet.MainActivity">
+    tools:context="com.techfar.service.duetbooklet.CseYearActivity">
 
-   <ListView
-       android:id="@+id/listView"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:divider="#ff3434"
-       android:listSelector="#80e27e"
-       android:dividerHeight="2dp"
-       >
+    <ListView
+        android:id="@+id/listviewyear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#ff3434"
+        android:listSelector="#80e27e"
+        android:dividerHeight="2dp"
+        >
 
-   </ListView>
-
+    </ListView>
 
 </LinearLayout>

@@ -9,9 +9,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="About"
+        android:text="This apps is developed by Computer Science and Engineering Department"
         android:layout_gravity="center"
-        android:textSize="40sp"
+        android:textColor="#961205"
+        android:textStyle="bold"
+        android:textSize="25sp"
         />
 
 </LinearLayout>

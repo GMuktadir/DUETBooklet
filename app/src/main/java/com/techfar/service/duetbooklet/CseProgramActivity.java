@@ -8,34 +8,39 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class YearActivity extends AppCompatActivity {
+public class CseProgramActivity extends AppCompatActivity {
     private ListView lview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_year);
+        setContentView(R.layout.activity_cse_program);
 
-        lview=findViewById(R.id.listviewyear);
-        final String[] year = getResources().getStringArray(R.array.year);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(YearActivity.this, R.layout.sampleview,R.id.lview,year);
+       lview=findViewById(R.id.listviewpro);
+        final String[] program = getResources().getStringArray(R.array.programme);
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(CseProgramActivity.this, R.layout.sampleview,R.id.lview, program);
         lview.setAdapter(adapter);
 
         lview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
+                String value = program[i];
 
-                String value=year[i];
-                if (value.equals("First Year Second Semester")) {
-                    Intent in = new Intent(YearActivity.this, FirstYearSecondSemester.class);
+                if (value.equals("Under Graduate Programme")) {
+                    Intent in = new Intent(CseProgramActivity.this, CseYearActivity.class);
                     startActivity(in);
-                } else if (value.equals("Second Year First Semester")) {
-                    Intent in = new Intent(YearActivity.this, CseActivity.class);
+                } /*else if (value.equals("Post Graduate Programme")) {
+                    Intent in = new Intent(CseProgramActivity.this, CseYearActivity.class);
                     startActivity(in);
-                }
+                }*/
+
+
             }
         });
+
+
 
     }
 }

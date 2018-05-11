@@ -10,7 +10,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    tools:context="com.techfar.service.duetbooklet.FirstYearSecondSemester">
+    tools:context="com.techfar.service.duetbooklet.CseFirstYearSecondSemester">
 
     <TableLayout
         android:padding="10dp"

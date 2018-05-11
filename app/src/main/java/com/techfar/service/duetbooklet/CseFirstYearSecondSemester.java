@@ -3,7 +3,7 @@ package com.techfar.service.duetbooklet;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class FirstYearSecondSemester extends AppCompatActivity {
+public class CseFirstYearSecondSemester extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

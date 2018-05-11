@@ -1,97 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.techfar.service.duetbooklet.SecondYearFirstSemester">
+    tools:context="com.techfar.service.duetbooklet.CseSecondYearFirstSemester">
 
     <TableLayout
+        android:padding="10dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TableRow>
+        android:layout_height="match_parent"
+        android:background="#fad3cd"
+        android:stretchColumns="2"
+        >
+        <TableRow android:background="#c22c15">
             <TextView
+                style="@style/BookletTextViewHead"
                 android:layout_column="1"
                 android:text="2nd Year 1st Semester"
-                android:textStyle="bold"
-                android:fontFamily="casual"
-                android:textSize="20sp"
                 android:padding="3dip"
-                android:textAlignment="center"
                 android:layout_span="4"
-
-
+                android:fontFamily="serif"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:padding="3dip"
                 android:textAlignment="center"
+                android:autoSizeTextType="uniform"
                 >
             </TextView>
         </TableRow>
 
         <TableRow>
             <TextView
+                style="@style/BookletTextViewSubHead"
                 android:layout_column="1"
                 android:text="Sl."
                 android:padding="3dip"
                 >
             </TextView>
             <TextView
+                style="@style/BookletTextViewSubHead"
                 android:layout_column="1"
                 android:gravity="right"
                 android:text="Course No."
-                android:textAlignment="center"
                 android:padding="3dip"
                 >
             </TextView>
             <TextView
+                style="@style/BookletTextViewSubHead"
                 android:layout_column="1"
                 android:gravity="right"
                 android:text="Course Title"
                 android:padding="3dip"
-                android:textAlignment="center"
                 >
             </TextView>
             <TextView
+                style="@style/BookletTextViewSubHead"
                 android:layout_column="1"
                 android:gravity="right"
                 android:text="Credit"
-                android:layout_marginRight="3dp"
-                android:textAlignment="center"
                 android:padding="3dip"
                 >
             </TextView>
         </TableRow>
 
-        <TableRow>
+        <TableRow >
             <TextView
                 android:layout_column="1"
                 android:text="1"
                 android:padding="3dip"
+                android:autoSizeTextType="uniform"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="CSE-1121"
+                android:text="CSE-2513"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Discrete Mathematics"
                 android:padding="3dip"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Structured Programming Language"
+                android:text="3.0"
                 android:padding="3dip"
-                >
-            </TextView>
-            <TextView
-                android:layout_column="1"
-                android:gravity="right"
-                android:text="4.0"
-                android:padding="3dip"
+                android:autoSizeTextType="uniform"
                 >
             </TextView>
 
@@ -103,27 +112,32 @@
                 android:layout_column="1"
                 android:text="2"
                 android:padding="3dip"
+                android:autoSizeTextType="uniform"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="CSE-1122"
+                android:text="CSE-2111"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Object Oriented Programming"
                 android:padding="3dip"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Structured Programming Language Sessional"
+                android:text="4.0"
                 android:padding="3dip"
-                >
-            </TextView>
-            <TextView
-                android:layout_column="1"
-                android:gravity="right"
-                android:text="1.5"
-                android:padding="3dip"
+                android:autoSizeTextType="uniform"
                 >
             </TextView>
 
@@ -135,27 +149,32 @@
                 android:layout_column="1"
                 android:text="3"
                 android:padding="3dip"
+                android:autoSizeTextType="uniform"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="CSE-1823"
+                android:text="CSE-2112"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Object Oriented Programming Sessional"
                 android:padding="3dip"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Digital Logic and System Design"
+                android:text="1.5"
                 android:padding="3dip"
-                >
-            </TextView>
-            <TextView
-                android:layout_column="1"
-                android:gravity="right"
-                android:text="3"
-                android:padding="3dip"
+                android:autoSizeTextType="uniform"
                 >
             </TextView>
 
@@ -167,27 +186,32 @@
                 android:layout_column="1"
                 android:text="4"
                 android:padding="3dip"
+                android:autoSizeTextType="uniform"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="CSE-1824"
+                android:text="EEE-2813"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Electronic Devices and Circuits"
                 android:padding="3dip"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Digital Logic and System Design Sessional"
+                android:text="3.0"
                 android:padding="3dip"
-                >
-            </TextView>
-            <TextView
-                android:layout_column="1"
-                android:gravity="right"
-                android:text="0.75"
-                android:padding="3dip"
+                android:autoSizeTextType="uniform"
                 >
             </TextView>
 
@@ -199,19 +223,23 @@
                 android:layout_column="1"
                 android:text="5"
                 android:padding="3dip"
+                android:autoSizeTextType="uniform"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="CSE-1124"
+                android:text="EEE-2814"
+                android:layout_gravity="center"
+                android:autoSizeTextType="uniform"
                 android:padding="3dip"
                 >
             </TextView>
             <TextView
+                style="@style/BookletTextViewNormal"
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Drawing and CAD Project Sessional"
+                android:text="Electronic Devices and Circuits Sessional"
                 android:padding="3dip"
                 >
             </TextView>
@@ -220,13 +248,140 @@
                 android:gravity="right"
                 android:text="0.75"
                 android:padding="3dip"
+                android:autoSizeTextType="uniform"
                 >
             </TextView>
 
 
 
         </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="6"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Math-2411"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Mathematics – III"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="4.0"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="7"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Ch-2415"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Chemistry-II"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="3.0"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="8"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Ch-2416"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Chemistry-II Sessional"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="0.75"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                style="@style/BookletTextViewSubHead"
+                android:layout_column="1"
+                android:text="Total"
+                android:padding="3dip"
+                android:textAlignment="inherit"
+                android:layout_span="3"
+
+
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewSubHead"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:textAlignment="center"
+                android:text="20"
+                >
+            </TextView>
+        </TableRow>
 
 
     </TableLayout>
 </LinearLayout>
+</ScrollView>

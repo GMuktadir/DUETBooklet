@@ -13,5 +13,6 @@
         android:layout_gravity="center"
         android:layout_marginLeft="80dp"
         android:scaleType="fitXY"
-        android:src="@drawable/logotransparent2" />
+        android:background="?android:selectableItemBackground"
+        android:src="@drawable/logo3" />
 </LinearLayout>
