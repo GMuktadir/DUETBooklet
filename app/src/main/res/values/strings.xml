@@ -17,13 +17,67 @@
         <item>Under Graduate Programme</item>
         <item>Post Graduate Programme</item>
     </string-array>
+    <string-array name="UndergraduateRulesAndRegulations">
+        <item>1. Definitions</item>
+        <item>2. Faculties </item>
+        <item>3. Departments</item>
+        <item>3.1 Degree-Awarding Departments</item>
+        <item>3.2 Teaching Departments</item>
+        <item>4. Degrees Offered</item>
+        <item>5. Student Admission</item>
+        <item>7. Academic Calendar</item>
+        <item>8. Duration of Programme and Course Structure</item>
+        <item>9. Course Designation and Numbering Systems</item>
+        <item>10. Type of Courses</item>
+        <item>10.1 Core Courses</item>
+        <item>10.2 Pre-requisite Courses</item>
+        <item>10.3 Optional Courses</item>
+        <item>10.4 Non Credit Courses</item>
+        <item>11. Departmental Monitoring Committee and Students’ Advise</item>
+        <item>11.1 Departmental Monitoring Committee</item>
+        <item>11.2 Students’ Adviser</item>
+        <item>11.3 Teacher Student Contact</item>
+        <item>12. Course Registration and its Procedure </item>
+        <item>12.1 Credit Limit in a Semester</item>
+        <item>12.2 Pre-condition for Registration</item>
+        <item>12.3 Course Adjustment Procedure</item>
+        <item>12.4 Withdrawal from a Semester</item>
+        <item>13. Striking off the Names and Readmission</item>
+        <item>14. Grading System, Calculation of GPA and Cumulative GPA, and Conversion of Marks</item>
+        <item>14. Grading System, Calculation of GPA and Cumulative GPA, and Conversion of Marks</item>
+        <item>14.1 Grading System</item>
+        <item>14.2 Calculation of GPA and Cumulative GPA</item>
+        <item>14.2 Calculation of GPA and Cumulative GPA</item>
+        <item>14.3 Conversion of Grade into Marks</item>
+        <item>15. Distribution of Marks</item>
+        <item>15.1 The distribution of marks for a given course will be as follows</item>
+        <item>15.2</item>
+        <item>15.3 Basis for distribution of marks in class participation and attendance will be as follows</item>
+        <item>15.4</item>
+        <item>16. Class Tests, Quizzes and Spot Tests</item>
+        <item>17. Earned Credits</item>
+        <item>18. Measures for Helping Academically Weak Students</item>
+        <item>19. Honours, Dean’s List and University Gold Medal</item>
+        <item>19.1 Honours</item>
+        <item>19.2 Dean’s List</item>
+        <item>19.3 University Gold Medal</item>
+        <item>20. Student Classification</item>
+        <item>21. Probation and Suspension</item>
+        <item>22. Minimum Earned Credits and GPA Requirements for  Obtaining Degree</item>
+        <item>23. Time Limits for Completion of B. Sc. Engineering Degree</item>
+        <item>24. Industrial/Professional Training Requirements</item>
+        <item>25. Application for Graduation and Award of Degree</item>
+        <item>26. Absence during Semester</item>
+        <item>27. Review Courses</item>
+        <item>28. Special Examination</item>
+    </string-array>
 
     <string-array name="year">
         <item>First Year Second Semester</item>
         <item>Second Year First Semester</item>
         <item>Second Year Second Semester</item>
         <item>Third Year First Semester</item>
-        <item>Third Year Second  Semester</item>
+        <item>Third Year Second Semester</item>
         <item>Fourth Year First Semester</item>
         <item>Fourth Year Second Semester</item>
     </string-array>

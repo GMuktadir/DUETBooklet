@@ -8,34 +8,33 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class RulesActivity extends AppCompatActivity {
+public class UndergraduateRulesAndRegulationsActivity extends AppCompatActivity {
     private ListView lview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rules);
-
+        setContentView(R.layout.activity_undergraduate_rules_and_regulations);
 
         lview=findViewById(R.id.listviewpro);
-        final String[] program = getResources().getStringArray(R.array.programme);
+        final String[] UGRules = getResources().getStringArray(R.array.UndergraduateRulesAndRegulations);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(RulesActivity.this, R.layout.sampleview,R.id.lview, program);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(UndergraduateRulesAndRegulationsActivity.this, R.layout.sampleview,R.id.lview, UGRules);
         lview.setAdapter(adapter);
-
         lview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
-                String value = program[i];
+                String value = UGRules[i];
 
                 if (value.equals("Under Graduate Programme")) {
-                    Intent in = new Intent(RulesActivity.this, UndergraduateRulesAndRegulationsActivity.class);
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, EeeYearActivity.class);
                     startActivity(in);
                 } else if (value.equals("Post Graduate Programme")) {
-                    Intent in = new Intent(RulesActivity.this, PostgraduateRulesAndRegulationsActivity.class);
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, CseYearActivity.class);
                     startActivity(in);
                 }
+
 
             }
         });

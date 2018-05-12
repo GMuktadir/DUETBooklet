@@ -7,40 +7,19 @@
     android:orientation="vertical"
     tools:context="com.techfar.service.duetbooklet.RulesActivity">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
+
+
+        <ListView
+            android:id="@+id/listviewpro"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical" >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ACADEMIC ORDINANCE FOR UNDERGRADUATE STUDIE"
-                android:padding="10sp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="(Recommended in the 26th meeting of Academic Council held on 29/12/09  and Approved in the 39th meeting of Syndicate, held on 15/01/10)"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAlignment="gravity"
-                android:text="@string/rules"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                />
-        </LinearLayout>
-    </ScrollView>
+            android:divider="#ff3434"
+            android:listSelector="#80e27e"
+            android:dividerHeight="2dp"
+            >
+
+        </ListView>
+
 
 
 

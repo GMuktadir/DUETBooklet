@@ -26,13 +26,33 @@ public class EeeYearActivity extends AppCompatActivity {
 
 
                 String value=year[i];
-                if (value.equals("First Year Second Semester")) {
-                    Intent in = new Intent(EeeYearActivity.this, EeeFirstYearSecondSemester.class);
-                    startActivity(in);
-                } else if (value.equals("Second Year First Semester")) {
-                    Intent in = new Intent(EeeYearActivity.this, EeeSecondYearFirstSemester.class);
-                    startActivity(in);
-                }
+                    if (value.equals("First Year Second Semester")) {
+                        Intent in = new Intent(EeeYearActivity.this, EeeFirstYearSecondSemester.class);
+                        startActivity(in);
+                    } else if (value.equals("Second Year First Semester")) {
+                        Intent in = new Intent(EeeYearActivity.this, EeeSecondYearFirstSemester.class);
+                        startActivity(in);
+                    }
+                      else if (value.equals("Second Year Second Semester")) {
+                            Intent in = new Intent(EeeYearActivity.this, EeeSecondYearSecondSemester.class);
+                            startActivity(in);
+                    }
+                    else if (value.equals("Third Year First Semester")) {
+                        Intent in = new Intent(EeeYearActivity.this, EeeThirdYearFirstSemester.class);
+                        startActivity(in);
+                    }
+                    else if (value.equals("Third Year Second Semester")) {
+                        Intent in = new Intent(EeeYearActivity.this, EeeThirdYearSecondSemester.class);
+                        startActivity(in);
+                    }
+                    else if (value.equals("Fourth Year First Semester")) {
+                        Intent in = new Intent(EeeYearActivity.this, EeeFourthYearFirstSemester.class);
+                        startActivity(in);
+                    }
+                    else if (value.equals("Fourth Year Second Semester")) {
+                        Intent in = new Intent(EeeYearActivity.this, EeeFourthYearSecondSemester.class);
+                        startActivity(in);
+                    }
             }
         });
     }

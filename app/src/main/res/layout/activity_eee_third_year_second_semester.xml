@@ -9,7 +9,8 @@ xmlns:android="http://schemas.android.com/apk/res/android">
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.techfar.service.duetbooklet.EeeSecondYearFirstSemester">
+
+    tools:context="com.techfar.service.duetbooklet.EeeThirdYearSecondSemester">
 
     <TableLayout
         android:padding="10dp"
@@ -22,7 +23,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
             <TextView
                 style="@style/BookletTextViewHead"
                 android:layout_column="1"
-                android:text="2nd  Year 1st Semester"
+                android:text="3rd Year 2nd Semester"
                 android:padding="3dip"
                 android:layout_span="4"
                 android:fontFamily="serif"
@@ -82,7 +83,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Math-2201"
+                android:text="Math-3203"
                 android:layout_gravity="center"
                 android:padding="3dip"
                 android:autoSizeTextType="uniform"
@@ -92,14 +93,14 @@ xmlns:android="http://schemas.android.com/apk/res/android">
                 style="@style/BookletTextViewNormal"
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Engineering Mathematics-III"
+                android:text="Engineering Mathematics-VI"
                 android:padding="3dip"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="3.0"
+                android:text="4.0"
                 android:padding="3dip"
                 android:autoSizeTextType="uniform"
                 >
@@ -119,7 +120,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Ph-2201"
+                android:text="Hum-3201"
                 android:layout_gravity="center"
                 android:padding="3dip"
                 android:autoSizeTextType="uniform"
@@ -129,14 +130,14 @@ xmlns:android="http://schemas.android.com/apk/res/android">
                 style="@style/BookletTextViewNormal"
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Physics-III"
+                android:text="Industrial Management"
                 android:padding="3dip"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="4.0"
+                android:text="3.0"
                 android:padding="3dip"
                 android:autoSizeTextType="uniform"
                 >
@@ -156,7 +157,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Ph-2202"
+                android:text="Hum-3203"
                 android:layout_gravity="center"
                 android:padding="3dip"
                 android:autoSizeTextType="uniform"
@@ -166,14 +167,14 @@ xmlns:android="http://schemas.android.com/apk/res/android">
                 style="@style/BookletTextViewNormal"
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Physics-III Sessional"
+                android:text="Socioeconomic and Environmental Aspects of Engineering Projects"
                 android:padding="3dip"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="1.50"
+                android:text="3.0"
                 android:padding="3dip"
                 android:autoSizeTextType="uniform"
                 >
@@ -193,7 +194,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="CSE-2111"
+                android:text="EEE-3101"
                 android:layout_gravity="center"
                 android:padding="3dip"
                 android:autoSizeTextType="uniform"
@@ -203,14 +204,14 @@ xmlns:android="http://schemas.android.com/apk/res/android">
                 style="@style/BookletTextViewNormal"
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Computer Programming"
+                android:text="Electrical Circuits-II"
                 android:padding="3dip"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="3.0"
+                android:text="4.0"
                 android:padding="3dip"
                 android:autoSizeTextType="uniform"
                 >
@@ -230,7 +231,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="CSE-2112"
+                android:text="EEE-3503"
                 android:layout_gravity="center"
                 android:autoSizeTextType="uniform"
                 android:padding="3dip"
@@ -240,14 +241,14 @@ xmlns:android="http://schemas.android.com/apk/res/android">
                 style="@style/BookletTextViewNormal"
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Computer Programming   Sessional"
+                android:text="   Electronics-III"
                 android:padding="3dip"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text=".75"
+                android:text="3.0"
                 android:padding="3dip"
                 android:autoSizeTextType="uniform"
                 >
@@ -267,7 +268,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="EEE-2301"
+                android:text="EEE-3504"
                 android:layout_gravity="center"
                 android:padding="3dip"
                 android:autoSizeTextType="uniform"
@@ -277,14 +278,14 @@ xmlns:android="http://schemas.android.com/apk/res/android">
                 style="@style/BookletTextViewNormal"
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Electrical Machines-I"
+                android:text="Electronics-III Sessional"
                 android:padding="3dip"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="4.0"
+                android:text=".75"
                 android:padding="3dip"
                 android:autoSizeTextType="uniform"
                 >
@@ -301,7 +302,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="EEE-2302"
+                android:text="EEE-3603"
                 android:layout_gravity="center"
                 android:padding="3dip"
                 android:autoSizeTextType="uniform"
@@ -311,14 +312,14 @@ xmlns:android="http://schemas.android.com/apk/res/android">
                 style="@style/BookletTextViewNormal"
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Electrical Machines-I Sessional"
+                android:text="Microprocessor and Peripherals "
                 android:padding="3dip"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text=".75"
+                android:text="3.0"
                 android:padding="3dip"
                 android:autoSizeTextType="uniform"
                 >
@@ -335,7 +336,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="EEE-2901"
+                android:text="EEE-3604"
                 android:layout_gravity="center"
                 android:padding="3dip"
                 android:autoSizeTextType="uniform"
@@ -345,20 +346,89 @@ xmlns:android="http://schemas.android.com/apk/res/android">
                 style="@style/BookletTextViewNormal"
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="Transmission and Distribution of Electrical Power "
+                android:text="Microprocessor and Peripherals  Sessional "
                 android:padding="3dip"
                 >
             </TextView>
             <TextView
                 android:layout_column="1"
                 android:gravity="right"
-                android:text="4.0"
+                android:text=".75"
                 android:padding="3dip"
                 android:autoSizeTextType="uniform"
                 >
             </TextView>
         </TableRow>
 
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="9"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="EEE-3004"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Electrical and Electronic Design"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="1.5"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="10"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="CSE-3110"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+            <TextView
+                style="@style/BookletTextViewNormal"
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="Programming Techniques and Numerical Analysis"
+                android:padding="3dip"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:gravity="right"
+                android:text="1.5"
+                android:padding="3dip"
+                android:autoSizeTextType="uniform"
+                >
+            </TextView>
+        </TableRow>
         <TableRow>
             <TextView
                 style="@style/BookletTextViewSubHead"
@@ -376,7 +446,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
                 android:layout_column="1"
                 android:padding="3dip"
                 android:textAlignment="center"
-                android:text="21.00"
+                android:text="21.50"
                 >
             </TextView>
         </TableRow>
