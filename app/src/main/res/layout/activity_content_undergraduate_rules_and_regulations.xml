@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.techfar.service.duetbooklet.ContentUndergraduateRulesAndRegulationsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/contentUndergraduateRulesHead"
+                style="@style/RulesAndRegulationHead"
+                android:layout_gravity="center"
+                android:background="#a1201a"
+                android:textColor="#7af294"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dhaka University of Engineering And Technology, Gazipur.
+Gazipur-1700
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#030303"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:text="ACADEMIC ORDINANCE FOR UNDERGRADUATE STUDIE
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginTop="3dp"
+                android:text="(Recommended in the 26th meeting of Academic Council held on 29/12/09  and Approved in the 39th meeting of Syndicate, held on 15/01/10)"
+                android:textColor="#030303"
+               />
+            <TextView
+                android:id="@+id/topicTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Topic"
+                android:textColor="#030303"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:id="@+id/RulesContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textColor="#030303"
+                android:textSize="16dp"
+                android:text="From previous intent"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

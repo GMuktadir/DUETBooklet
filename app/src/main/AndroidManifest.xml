@@ -112,12 +112,15 @@
             android:name=".EeeThirdYearSecondSemester"
             android:label="Curriculum EEE 3/2"
             android:screenOrientation="landscape" />
-        <activity android:name=".EeeFourthYearFirstSemester"
+        <activity
+            android:name=".EeeFourthYearFirstSemester"
             android:label="Curriculum EEE 4/1"
-            android:screenOrientation="landscape"/>
-        <activity android:name=".EeeFourthYearSecondSemester"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".EeeFourthYearSecondSemester"
             android:label="Curriculum EEE 4/2"
-            android:screenOrientation="landscape"></activity>
+            android:screenOrientation="landscape" />
+        <activity android:name=".ContentUndergraduateRulesAndRegulationsActivity"></activity>
     </application>
 
 </manifest>
