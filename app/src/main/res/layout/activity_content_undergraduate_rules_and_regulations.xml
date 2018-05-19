@@ -15,18 +15,29 @@
             android:layout_margin="10dp"
             android:orientation="vertical"
             android:layout_height="match_parent">
-            <TextView
-                android:id="@+id/contentUndergraduateRulesHead"
-                style="@style/RulesAndRegulationHead"
-                android:layout_gravity="center"
+
+            <LinearLayout
                 android:background="#a1201a"
-                android:textColor="#7af294"
-                android:padding="5dp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Dhaka University of Engineering And Technology, Gazipur.
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/logo3"/>
+                <TextView
+                    android:id="@+id/contentUndergraduateRulesHead"
+                    style="@style/RulesAndRegulationHead"
+                    android:layout_gravity="center"
+                    android:textColor="#7af294"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dhaka University of Engineering And Technology, Gazipur.
 Gazipur-1700
 "/>
+            </LinearLayout>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -55,14 +66,15 @@ Gazipur-1700
                 android:textStyle="bold"
                 android:textSize="17dp"
                 />
+
             <TextView
                 android:id="@+id/RulesContent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
+                android:text="From previous intent"
                 android:textColor="#030303"
-                android:textSize="16dp"
-                android:text="From previous intent"/>
+                android:textSize="16dp" />
 
         </LinearLayout>
 

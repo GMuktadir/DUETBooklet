@@ -1,19 +1,18 @@
 package com.techfar.service.duetbooklet;
 
+import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.content.pm.ActivityInfo;
 
-public class CseFirstYearSecondSemester extends AppCompatActivity {
+public class CseThirdYearSecondSemester extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cse_first_year_second_semester);
-
+        setContentView(R.layout.activity_cse_third_year_second_semester);
     }
     //Menu items
     @Override

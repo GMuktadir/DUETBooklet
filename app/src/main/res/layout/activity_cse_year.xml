@@ -11,8 +11,8 @@
         android:id="@+id/listviewyear"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:divider="#ff3434"
-        android:listSelector="#80e27e"
+        android:divider="@color/colorDivider"
+        android:listSelector="@color/colorSelector"
         android:dividerHeight="2dp"
         >
 

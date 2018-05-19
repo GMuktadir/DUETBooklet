@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ContentUndergraduateRulesAndRegulationsActivity extends AppCompatActivity {
     TextView txt,topicHead;
@@ -13,18 +14,37 @@ public class ContentUndergraduateRulesAndRegulationsActivity extends AppCompatAc
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content_undergraduate_rules_and_regulations);
-        txt=findViewById(R.id.RulesContent);
         topicHead=findViewById(R.id.topicTitle);
-        str="1. Definitions";
-        Intent intent=getIntent();
-        Bundle bundle=intent.getExtras();
-        //ContentUndergraduateRulesAndRegulationsActivity.setTitle("Definition");
-        if(bundle!=null)
+        txt=findViewById(R.id.RulesContent);
+
+       final String[] UGRules = getResources().getStringArray(R.array.UndergraduateRulesAndRegulations);
+       final String[] UGRulesDetails = getResources().getStringArray(R.array.UndergraduateRulesAndRegulationsDetails);
+
+
+
+        try {
+            Intent intent=getIntent();
+            Bundle bundle=intent.getExtras();
+            if(bundle!=null) {
+                String i = (String) bundle.get("index"); //index use as "key" for retrieve index value
+
+                //Toast.makeText(ContentUndergraduateRulesAndRegulationsActivity.this, i, Toast.LENGTH_SHORT).show();
+                //String valueUGRules = UGRules[Integer.parseInt(i)];  //Retrieve title from array by index
+                String valueUGRules = UGRules[Integer.parseInt(i)];  //Retrieve title from array by index
+                String valueUGRulesDetails = UGRulesDetails[Integer.parseInt(i)]; //retrieve details from array by index
+
+
+                topicHead.setText(valueUGRules);
+                txt.setText(valueUGRulesDetails);
+
+
+            }
+
+        }catch (Exception ex)
         {
-            String st= (String) bundle.get(str);
-            txt.setText(st);
-            topicHead.setText(str);
+            Toast.makeText(ContentUndergraduateRulesAndRegulationsActivity.this, (CharSequence) ex, Toast.LENGTH_SHORT).show();
         }
+
 
     }
 }

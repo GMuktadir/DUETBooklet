@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class UndergraduateRulesAndRegulationsActivity extends AppCompatActivity {
     private ListView lview;
@@ -25,26 +26,274 @@ public class UndergraduateRulesAndRegulationsActivity extends AppCompatActivity 
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
-                String value = UGRules[i];
-
-                if (value.equals("1. Definitions")) {
+                String valueRules=UGRules[i];
+                String index= String.valueOf(i);
+                if (valueRules.equals("1. Definitions")) {
                     Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
-                    in.putExtra("1. Definitions","1.1 University; means the Dhaka University of Engineering and Technology, Gazipur abbreviated as DUET, Gazipur.\n" +
-                            "1.2    ‘Syndicate’ means the Syndicate of the University,\n" +
-                            "1.3    ‘Academic Council’ means the Academic Council of the University.\n" +
-                            "1.4    ‘Chancellor’ means the Chancellor of the University.\n" +
-                            "1.5    ‘Vice-Chancellor’ means the Vice-Chancellor of the University.\n" +
-                            "1.6    ‘Dean’ means the Dean of a faculty of the University.\n" +
-                            "1.7    ‘Head of the Department’ means the Head of a department of the University.\n" +
-                            "1.8    ‘Registrar’ means the Registrar of the University.\n" +
-                            "1.9    ‘Academic Committee’ means the Academic Committee for Undergraduate Studies (ACUG) of a degree awarding department of the University.\n" +
-                            "1.10    ‘Degree’ means the degree of Bachelor of Science in a particular discipline of Engineering offered by the University.\n" +
-                            "1.11    ‘Departmental Monitoring Committee’ means the Committee for upgrading/changing the Undergraduate Curriculum and the Course system and monitoring the teacher-student activities.\n" +
-                            "1.12    ‘Degree Equivalence Committee’ means the committee for equivalencing different degrees obtained from home and/or abroad.\n" +
-                            "1.13    ‘Teacher’ means Professor, Associate Professor, Assistant Professor, Lecturer and any other person approved as a teacher by the University.\n" +
-                            "1.14   ‘Student’ means Student who has been admitted into the regular academic curriculum of the University.\n");
+                    in.putExtra("index",index);
                     startActivity(in);
                 }
+                else if (valueRules.equals("2. Faculties")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("3. Departments")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("3.1 Degree-Awarding Departments")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("3.2 Teaching Departments")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("4. Degrees Offered")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("5. Student Admission")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("6. Method of Course Offering and Instruction")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("7. Academic Calendar")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("8. Duration of Programme and Course Structure")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("9. Course Designation and Numbering Systems")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("10. Type of Courses")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("10.1 Core Courses")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("10.2 Pre-requisite Courses")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("10.3 Optional Courses")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("10.4 Non Credit Courses")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("11. Departmental Monitoring Committee and Students’ Advise")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("11.1 Departmental Monitoring Committee")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("11.2 Students’ Adviser")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("11.3 Teacher Student Contact")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("12. Course Registration and its Procedure")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("12.1 Credit Limit in a Semester")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("12.2 Pre-condition for Registration")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("12.3 Course Adjustment Procedure")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("12.4 Withdrawal from a Semester")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("13. Striking off the Names and Readmission")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("14. Grading System, Calculation of GPA and Cumulative GPA, and Conversion of Marks")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("14. Grading System, Calculation of GPA and Cumulative GPA, and Conversion of Marks")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("14.1 Grading System")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("14.2 Calculation of GPA and Cumulative GPA")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("14.2 Calculation of GPA and Cumulative GPA")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("14.3 Conversion of Grade into Marks")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("15. Distribution of Marks")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("15.1 The distribution of marks for a given course will be as follows")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("15.2")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("15.3 Basis for distribution of marks in class participation and attendance will be as follows")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("15.4")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("16. Class Tests, Quizzes and Spot Tests")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("17. Earned Credits")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("18. Measures for Helping Academically Weak Students")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("19. Honours, Dean’s List and University Gold Medal")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("19.1 Honours")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("19.2 Dean’s List")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("19.3 University Gold Medal")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("20. Student Classification")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("21. Probation and Suspension")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("22.Minimum Earned Credits and GPA Requirements for Obtaining Degree")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("23. Time Limits for Completion of B. Sc. Engineering Degree")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("24. Industrial/Professional Training Requirements")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("25. Application for Graduation and Award of Degree")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("26. Absence during Semester")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("27. Review Courses")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+                else if (valueRules.equals("28. Special Examination")) {
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    in.putExtra("index",index);
+                    startActivity(in);
+                }
+
 
 
 

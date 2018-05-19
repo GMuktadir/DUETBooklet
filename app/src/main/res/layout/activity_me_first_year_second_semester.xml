@@ -2,13 +2,15 @@
 <ScrollView android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="com.techfar.service.duetbooklet.CseSecondYearSecondSemester">
+
+        tools:context="com.techfar.service.duetbooklet.MeFirstYearSecondSemester">
 
         <TableLayout
             android:padding="10dp"
@@ -21,7 +23,7 @@
                 <TextView
                     style="@style/BookletTextViewHead"
                     android:layout_column="1"
-                    android:text="2nd Year 2nd Semester"
+                    android:text="1st Year 2nd Semester"
                     android:padding="3dip"
                     android:layout_span="4"
                     android:fontFamily="serif"
@@ -81,7 +83,7 @@
                 <TextView
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="CSE-2120"
+                    android:text="Math-133"
                     android:layout_gravity="center"
                     android:padding="3dip"
                     android:autoSizeTextType="uniform"
@@ -91,14 +93,14 @@
                     style="@style/BookletTextViewNormal"
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="Visual Programming Sessional"
+                    android:text="Mathematics-I1"
                     android:padding="3dip"
                     >
                 </TextView>
                 <TextView
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="1.5"
+                    android:text="4.0"
                     android:padding="3dip"
                     android:autoSizeTextType="uniform"
                     >
@@ -118,7 +120,7 @@
                 <TextView
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="CSE-2521"
+                    android:text="Ph-133"
                     android:layout_gravity="center"
                     android:padding="3dip"
                     android:autoSizeTextType="uniform"
@@ -128,14 +130,14 @@
                     style="@style/BookletTextViewNormal"
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="Data Structure"
+                    android:text="Physics-II"
                     android:padding="3dip"
                     >
                 </TextView>
                 <TextView
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="3.0"
+                    android:text="4.0"
                     android:padding="3dip"
                     android:autoSizeTextType="uniform"
                     >
@@ -155,7 +157,7 @@
                 <TextView
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="CSE-2522"
+                    android:text="Ph-134"
                     android:layout_gravity="center"
                     android:padding="3dip"
                     android:autoSizeTextType="uniform"
@@ -165,14 +167,14 @@
                     style="@style/BookletTextViewNormal"
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="Data Structure Sessional"
+                    android:text="Physics-I1 Sessional"
                     android:padding="3dip"
                     >
                 </TextView>
                 <TextView
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="0.75"
+                    android:text=".75"
                     android:padding="3dip"
                     android:autoSizeTextType="uniform"
                     >
@@ -192,7 +194,7 @@
                 <TextView
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="EEE-2823"
+                    android:text="Ch-133"
                     android:layout_gravity="center"
                     android:padding="3dip"
                     android:autoSizeTextType="uniform"
@@ -202,14 +204,14 @@
                     style="@style/BookletTextViewNormal"
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="Electrical Drives and Instrumentation"
+                    android:text="Chemistry-I1"
                     android:padding="3dip"
                     >
                 </TextView>
                 <TextView
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="3.0"
+                    android:text="4.0"
                     android:padding="3dip"
                     android:autoSizeTextType="uniform"
                     >
@@ -229,7 +231,7 @@
                 <TextView
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="EEE-2824"
+                    android:text="Ch-134"
                     android:layout_gravity="center"
                     android:autoSizeTextType="uniform"
                     android:padding="3dip"
@@ -239,7 +241,7 @@
                     style="@style/BookletTextViewNormal"
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="Electrical Drives and Instrumentation Sessional"
+                    android:text="Chemistry-I1 Sessional"
                     android:padding="3dip"
                     >
                 </TextView>
@@ -266,7 +268,7 @@
                 <TextView
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="Math-2421"
+                    android:text="Hum-131"
                     android:layout_gravity="center"
                     android:padding="3dip"
                     android:autoSizeTextType="uniform"
@@ -276,14 +278,14 @@
                     style="@style/BookletTextViewNormal"
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="Mathematics-IV"
+                    android:text="English"
                     android:padding="3dip"
                     >
                 </TextView>
                 <TextView
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="4.0"
+                    android:text="3.0"
                     android:padding="3dip"
                     android:autoSizeTextType="uniform"
                     >
@@ -300,7 +302,7 @@
                 <TextView
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="CSE-2124"
+                    android:text="Hum-133"
                     android:layout_gravity="center"
                     android:padding="3dip"
                     android:autoSizeTextType="uniform"
@@ -310,14 +312,14 @@
                     style="@style/BookletTextViewNormal"
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="Numerical Methods Sessional"
+                    android:text="Economics $ Accounting"
                     android:padding="3dip"
                     >
                 </TextView>
                 <TextView
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="1.5"
+                    android:text="3.0"
                     android:padding="3dip"
                     android:autoSizeTextType="uniform"
                     >
@@ -334,7 +336,7 @@
                 <TextView
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="CSE-2821"
+                    android:text="ME-104"
                     android:layout_gravity="center"
                     android:padding="3dip"
                     android:autoSizeTextType="uniform"
@@ -344,7 +346,7 @@
                     style="@style/BookletTextViewNormal"
                     android:layout_column="1"
                     android:gravity="right"
-                    android:text="Digital Electronics and Pulse Technique"
+                    android:text="Engineering Drawing-II"
                     android:padding="3dip"
                     >
                 </TextView>
@@ -357,77 +359,6 @@
                     >
                 </TextView>
             </TableRow>
-            <TableRow>
-                <TextView
-                    android:layout_column="1"
-                    android:text="9"
-                    android:padding="3dip"
-                    android:autoSizeTextType="uniform"
-                    >
-                </TextView>
-                <TextView
-                    android:layout_column="1"
-                    android:gravity="right"
-                    android:text="CSE-2822"
-                    android:layout_gravity="center"
-                    android:padding="3dip"
-                    android:autoSizeTextType="uniform"
-                    >
-                </TextView>
-                <TextView
-                    style="@style/BookletTextViewNormal"
-                    android:layout_column="1"
-                    android:gravity="right"
-                    android:text="Digital Electronics and Pulse Technique Sessional"
-                    android:padding="3dip"
-                    >
-                </TextView>
-                <TextView
-                    android:layout_column="1"
-                    android:gravity="right"
-                    android:text="0.75"
-                    android:padding="3dip"
-                    android:autoSizeTextType="uniform"
-                    >
-                </TextView>
-            </TableRow>
-            <TableRow>
-                <TextView
-                    android:layout_column="1"
-                    android:text="10"
-                    android:padding="3dip"
-                    android:autoSizeTextType="uniform"
-                    >
-                </TextView>
-                <TextView
-                    android:layout_column="1"
-                    android:gravity="right"
-                    android:text="CSE-2823"
-                    android:layout_gravity="center"
-                    android:padding="3dip"
-                    android:autoSizeTextType="uniform"
-                    >
-                </TextView>
-                <TextView
-                    style="@style/BookletTextViewNormal"
-                    android:layout_column="1"
-                    android:gravity="right"
-                    android:text="Computer Architecture"
-                    android:padding="3dip"
-                    >
-                </TextView>
-                <TextView
-                    android:layout_column="1"
-                    android:gravity="right"
-                    android:text="3.0"
-                    android:padding="3dip"
-                    android:autoSizeTextType="uniform"
-                    >
-                </TextView>
-            </TableRow>
-
-
-
 
             <TableRow>
                 <TextView
@@ -446,7 +377,7 @@
                     android:layout_column="1"
                     android:padding="3dip"
                     android:textAlignment="center"
-                    android:text="21.5"
+                    android:text="21.00"
                     >
                 </TextView>
             </TableRow>

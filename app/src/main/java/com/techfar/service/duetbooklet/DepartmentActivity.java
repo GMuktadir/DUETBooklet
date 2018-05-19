@@ -31,37 +31,44 @@ public class DepartmentActivity extends AppCompatActivity {
                 public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
                     String value = department[i];
-                    Toast.makeText(DepartmentActivity.this, i + "." + value, Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(DepartmentActivity.this, i + "." + value, Toast.LENGTH_SHORT).show();
 
 //                in.putExtra("name",DepartmentActivity[i]);
 
-                    if (value.equals("Department of Computer Science and Engineering")) {
-                        Intent in = new Intent(DepartmentActivity.this, CseProgramActivity.class);
-                        startActivity(in);
-                    } else if (value.equals("Department of Electrical and Electronic Engineering")) {
-                        Intent in = new Intent(DepartmentActivity.this, EeeProgramActivity.class);
-                        startActivity(in);
-                    } else if (value.equals("Department of Mechanical Engineering")) {
-                        Intent in = new Intent(DepartmentActivity.this, MeProgramActivity.class);
-                        startActivity(in);
-                    } else if (value.equals("Department of Textile Engineering")) {
-                        Intent in = new Intent(DepartmentActivity.this, TeActivity.class);
-                        startActivity(in);
-                    } else if (value.equals("Department of Architecture")) {
-                        Intent in = new Intent(DepartmentActivity.this, ArchActivity.class);
-                        startActivity(in);
-                    } else if (value.equals("Department of Industrial and Production Engineering")) {
-                        Intent in = new Intent(DepartmentActivity.this, IpeActivity.class);
-                        startActivity(in);
-                    } else if (value.equals("Department of Civil Engineering")) {
-                        Intent in = new Intent(DepartmentActivity.this, CeActivity.class);
-                        startActivity(in);
-                    } else if (value.equals("Department of Food Engineering")) {
-                        Intent in = new Intent(DepartmentActivity.this, FeActivity.class);
-                        startActivity(in);
-                    } else {
-                        Toast.makeText(DepartmentActivity.this, "Not select any Department", Toast.LENGTH_SHORT).show();
+                    try
+                    {
+                        if (value.equals("Department of Computer Science and Engineering")) {
+                            Intent in = new Intent(DepartmentActivity.this, CseProgramActivity.class);
+                            startActivity(in);
+                        } else if (value.equals("Department of Electrical and Electronic Engineering")) {
+                            Intent in = new Intent(DepartmentActivity.this, EeeProgramActivity.class);
+                            startActivity(in);
+                        } else if (value.equals("Department of Mechanical Engineering")) {
+                           /* Intent in = new Intent(DepartmentActivity.this, MeProgramActivity.class);
+                            startActivity(in);*/
+                        } else if (value.equals("Department of Textile Engineering")) {
+                            Intent in = new Intent(DepartmentActivity.this, TeActivity.class);
+                            startActivity(in);
+                        } else if (value.equals("Department of Architecture")) {
+                            Intent in = new Intent(DepartmentActivity.this, ArchActivity.class);
+                            startActivity(in);
+                        } else if (value.equals("Department of Industrial and Production Engineering")) {
+                            Intent in = new Intent(DepartmentActivity.this, IpeActivity.class);
+                            startActivity(in);
+                        } else if (value.equals("Department of Civil Engineering")) {
+                            Intent in = new Intent(DepartmentActivity.this, CeActivity.class);
+                            startActivity(in);
+                        } else if (value.equals("Department of Food Engineering")) {
+                            Intent in = new Intent(DepartmentActivity.this, FeActivity.class);
+                            startActivity(in);
+                        } else {
+                            Toast.makeText(DepartmentActivity.this, "Not select any Department", Toast.LENGTH_SHORT).show();
+                        }
+                    }catch (Exception ex)
+                    {
+                        Toast.makeText(DepartmentActivity.this, (CharSequence) ex, Toast.LENGTH_SHORT).show();
                     }
+
                 }
             });
 

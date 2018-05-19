@@ -6,12 +6,13 @@
 
     <TextView
         android:id="@+id/lview"
+        android:background="#c3ffc6"
         android:padding="5dp"
-        android:text="Hello"
+        android:text="Dhaka University Of Engineering And Technology"
         android:textAllCaps="false"
         android:textStyle="bold"
         android:textSize="14dp"
-        android:textColor="#1b1717"
+        android:textColor="#066114"
         android:gravity="center_vertical"
         android:layout_width="match_parent"
         android:layout_height="50dp"

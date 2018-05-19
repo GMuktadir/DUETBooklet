@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.techfar.service.duetbooklet">
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -64,7 +69,7 @@
             android:name=".CseFirstYearSecondSemester"
             android:label="Curriculum CSE 1/2"
             android:parentActivityName=".CseYearActivity"
-            android:screenOrientation="landscape" />
+             />
         <activity
             android:name=".CseSecondYearFirstSemester"
             android:parentActivityName=".CseYearActivity"
@@ -95,32 +100,47 @@
         <activity
             android:name=".EeeFirstYearSecondSemester"
             android:label="Curriculum EEE 1/2"
-            android:screenOrientation="landscape" />
+             />
         <activity
             android:name=".EeeSecondYearFirstSemester"
             android:label="Curriculum EEE 2/1"
-            android:screenOrientation="landscape" />
+            />
         <activity
             android:name=".EeeSecondYearSecondSemester"
             android:label="Curriculum EEE 2/2"
-            android:screenOrientation="landscape" />
+             />
         <activity
             android:name=".EeeThirdYearFirstSemester"
             android:label="Curriculum EEE 3/1"
-            android:screenOrientation="landscape" />
+             />
         <activity
             android:name=".EeeThirdYearSecondSemester"
             android:label="Curriculum EEE 3/2"
-            android:screenOrientation="landscape" />
+             />
         <activity
             android:name=".EeeFourthYearFirstSemester"
             android:label="Curriculum EEE 4/1"
-            android:screenOrientation="landscape" />
+             />
         <activity
             android:name=".EeeFourthYearSecondSemester"
             android:label="Curriculum EEE 4/2"
-            android:screenOrientation="landscape" />
-        <activity android:name=".ContentUndergraduateRulesAndRegulationsActivity"></activity>
+            />
+        <activity
+            android:name=".ContentUndergraduateRulesAndRegulationsActivity"
+            android:label="UndergraduateRulesAndRegulations|DUET" />
+        <activity android:name=".MeFirstYearSecondSemester" />
+        <activity
+            android:name=".CseSecondYearSecondSemester"
+            android:label="Curriculum CSE 2/2"
+             />
+        <activity
+            android:name=".CseThirdYearFirstSemester"
+            android:label="Curriculum CSE 3/1"
+             />
+        <activity
+            android:name=".CseThirdYearSecondSemester"
+            android:label="Curriculum CSE 3/2"
+             />
     </application>
 
 </manifest>

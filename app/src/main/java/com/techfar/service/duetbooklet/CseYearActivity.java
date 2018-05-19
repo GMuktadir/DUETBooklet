@@ -34,6 +34,18 @@ public class CseYearActivity extends AppCompatActivity {
                     Intent in = new Intent(CseYearActivity.this, CseSecondYearFirstSemester.class);
                     startActivity(in);
                 }
+                else if (value.equals("Second Year Second Semester")) {
+                    Intent in = new Intent(CseYearActivity.this, CseSecondYearSecondSemester.class);
+                    startActivity(in);
+                }
+                else if (value.equals("Third Year First Semester")) {
+                    Intent in = new Intent(CseYearActivity.this, CseThirdYearFirstSemester.class);
+                    startActivity(in);
+                }
+                else if (value.equals("Third Year Second Semester")) {
+                    Intent in = new Intent(CseYearActivity.this, CseThirdYearSecondSemester.class);
+                    startActivity(in);
+                }
             }
         });
 
