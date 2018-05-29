@@ -1,8 +1,12 @@
 package com.techfar.service.duetbooklet;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
@@ -64,5 +68,28 @@ catch (Exception ex)
     Toast.makeText(HomeActivity.this,"something problem", Toast.LENGTH_SHORT).show();
 }
 
+    }
+    //Menu items
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater=getMenuInflater();
+        menuInflater.inflate(R.menu.main,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if(item.getItemId()==R.id.share)
+        {
+            Intent in=new Intent(Intent.ACTION_SEND);
+            in.setType("text/plain");
+            String title="Download Source and APk from here";
+            String body="https://github.com/GMuktadir";
+            in.putExtra(Intent.EXTRA_SUBJECT,title);
+            in.putExtra(Intent.EXTRA_TEXT,body);
+            startActivity(Intent.createChooser(in,"Share this app using "));
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

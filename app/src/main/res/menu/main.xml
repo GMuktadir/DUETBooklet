@@ -1,6 +1,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+        android:id="@+id/share"
+        android:title="Share"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/Landscape"
         android:title="Landscape"
         app:showAsAction="never" />
@@ -14,6 +18,10 @@
     <item
         android:id="@+id/developers"
         android:title="Developers"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:title="About"
         app:showAsAction="never" />
 
 
