@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.techfar.service.duetbooklet.UndergraduateRulesDurationOfProgramme">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="#a1201a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo3"/>
+            <TextView
+                android:id="@+id/contentUndergraduateRulesHead"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#7af294"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dhaka University of Engineering And Technology,Gazipur"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#030303"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:text="ACADEMIC ORDINANCE FOR UNDERGRADUATE STUDIE
+"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="3dp"
+            android:text="(Recommended in the 26th meeting of Academic Council held on 29/12/09  and Approved in the 39th meeting of Syndicate, held on 15/01/10)"
+            android:textColor="#030303"
+            />
+        <TextView
+            android:id="@+id/topicTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="8. Duration of Programme and Course Structure "
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:maxLines="50"
+            android:text="1.The B.Sc. Engineering programmes shall extend over a period of four academic years, each with a normal duration of one calendar year. Each academic year is divided into two semesters (except the 1st year) for the purpose of academic programme and conduct of examinations.
+\n2.	The curricula of the B. Sc. Engineering degree in the different departments shall be as proposed by the respective ACUG and approved by the Academic Council on the recommendation of the Executive Committee of the concerned Faculty.
+\n3.	The ACUG may review the curricula once in every academic year and put forward suggestions to the Academic Council through the Executive Committee of the respective Faculty.
+\n4.	The courses are reckoned in credits and the credits allotted to various courses will be determined by the ACUG with the following guidelines:"
+            android:textColor="#030303"
+            android:textSize="16dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/durationofprogramme"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:maxLines="50"
+            android:text="1.The minimum credits for the award of bachelor’s degree in engineering will be decided by the respective ACUG and approved by the Academic Council on the recommendation of the Executive Committee of the Faculty. However, at least 140 credits including the specified core courses must be earned to be eligible for graduation.
+\n\n2.	The total number of credits for which a student should register shall be from 15 to 24 credits in a semester except the review course. However, a student may be allowed to register for less than 15 credits in a semester if
+\ni)     he/she is considered academically weak,
+\nii)     number of credits required for graduation is less than 15 in that semester,
+\niii)    Student can not find appropriate courses for  registration subject to the approval of the adviser.
+\n1.	The total contact hours for students including lecture, tutorial and lab/sessional should be around 30 periods per week, each period being of 50 minutes duration.
+\n2.	In each degree-awarding department, one of the Assistant Professors or above nominated by the Head of the Department for one Academic year will act as Course Coordinator as well as Member Secretary of ACUG.
+\n3.	A course plan showing details of lectures for each course, approved by the Head of the department is to be announced at the start of each semester.
+\n4.	Project and thesis should be of 1.5 credits in each semester. Credit in any theory subject should not exceed 4 and that in sessional subject should not exceed 1.5.
+"
+            android:textColor="#030303"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

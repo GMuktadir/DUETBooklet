@@ -42,7 +42,7 @@ try {
             String value = menu[i];
                 /*Toast.makeText(HomeActivity.this,value+" index "+i,Toast.LENGTH_SHORT).show();*/
 
-            if (value.equals("Booklet")) {
+            if (value.equals("Curriculum")) {
                 Intent intentDepart = new Intent(HomeActivity.this, DepartmentActivity.class);
                 startActivity(intentDepart);
             } else if (value.equals("Act")) {

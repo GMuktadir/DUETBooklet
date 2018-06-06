@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.techfar.service.duetbooklet.PostGraduateRulesDoctorGradingSystem">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="#a1201a"
+            android:layout_width="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo3"/>
+            <TextView
+                android:id="@+id/contentUndergraduateRulesHead"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#7af294"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dhaka University of Engineering And Technology,Gazipur"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/topicTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="7. Grading System"
+                android:textColor="#030303"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:maxLines="50"
+                android:text="7.1	The grading system for assessing the performance of a student in credit courses shall be as follows:"
+                android:textColor="#030303"
+                android:textSize="16dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/doctorgrading1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:maxLines="50"
+                android:text="All the final grades for the course of Ph. D will be recorded in letter grade system. The GPA will be calculated as follows:"
+                android:textColor="#030303"
+                android:textSize="16dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/doctorgrading2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:maxLines="50"
+                android:text="where, n is the number of courses passed by the student during the semester, Ci is the number of credits allotted to a particular course and Gi is the grade point corresponding to the grade awarded for that course(s). The overall or Cumulative GPA gives the cumulative performance of the student from first semester up to any other semester to which it refers and is computed by dividing total grade points (∑▒C_i  G_i) accumulated up to the date by the total credit hours (∑▒C_i ). Both GPA and Cumulative GPA will be rounded off to the second place of decimal for representing/reporting.
+ \n7.2 	The course(s) in which the student gets F grade shall not be counted towards credit hour requirements and for the calculation of Grade Point Average (GPA).
+\n7.2.1	The ‘B and C’ grades, up to a maximum of two courses, may be ignored for calculation of GPA at the written request of the student to the Head of the Department on the recommendation of supervisor provided that the student has fulfilled the total course credit hour requirements in the remaining courses with a minimum GPA of 2.75.
+\n	When a course is repeated for improvement, better grade shall be counted for the calculation of GPA.
+\n7.2.3	The performance in all the courses including all the ‘F’ grades shall be reflected in the transcript.
+\n7.3 	Grade ‘I’ is given only when a student is unable to sit for the examination of a course at the end of the semester because of circumstances beyond their control. To get ‘I’ grade s/he must apply to the Head of the Department through the respective course teacher within one week after the examination of the respective course. S/he has to complete the course within the next 2 (two) consecutive semesters; otherwise s/he will get ‘F’ grade in that course.
+\n	Satisfactory (‘S’) and Unsatisfactory (‘U’) shall be used for final grading of the performance of Thesis and non-credit courses. An ‘X’ grade shall be recorded for Thesis continuation.
+\n	A student may enroll for non-credit course(s) termed as audit course(s) on recommendation of their Thesis Supervisor and Head of the Department.
+\n	A student shall withdraw officially from a course within 2 (two) working weeks of the commencement of the semester or else their grade in that course shall be recorded as ‘F’ unless s/he is eligible to get a grade of ‘I’. A student may be permitted to withdraw and change their course within the specified period with the approval of their Supervisor, Head of the Department and the respective teacher(s) concerned. (In that case their grade in the courses registered shall be recorded as ‘W’ in his Academic Record but shall not be reflected in the transcript).
+"
+                android:textColor="#030303"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

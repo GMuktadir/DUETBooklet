@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.techfar.service.duetbooklet.UndergraduateRulesCourseDesignation">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="#a1201a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo3"/>
+            <TextView
+                android:id="@+id/contentUndergraduateRulesHead"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#7af294"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dhaka University of Engineering And Technology,Gazipur"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#030303"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:text="ACADEMIC ORDINANCE FOR UNDERGRADUATE STUDIE
+"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="3dp"
+            android:text="(Recommended in the 26th meeting of Academic Council held on 29/12/09  and Approved in the 39th meeting of Syndicate, held on 15/01/10)"
+            android:textColor="#030303"
+            />
+        <TextView
+            android:id="@+id/topicTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text=" 9. Course Designation and Numbering System"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:maxLines="50"
+            android:text="Each course is designated by a two to four letter word identifying course offering department followed by a three-digit number with the following criteria:
+\n1.	The first digit will correspond to the year in which the course is normally taken by the students.
+\n2.	The second digit will be reserved for departmental use.
+\n3.	The last digit will usually be odd for theoretical and even for laboratory or sessional courses.
+\nThe course designation system is illustrated by two examples as shown below:
+"
+            android:textColor="#030303"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/coursedesignation1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/coursedesignation2"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

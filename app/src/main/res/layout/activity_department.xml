@@ -12,6 +12,7 @@
        android:layout_width="match_parent"
        android:layout_height="match_parent"
        android:divider="@color/colorDivider"
+       android:background="#c3ffc6"
        android:listSelector="@color/colorSelector"
        android:dividerHeight="2dp"
        >

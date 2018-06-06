@@ -59,7 +59,7 @@ public class UndergraduateRulesAndRegulationsActivity extends AppCompatActivity 
                     startActivity(in);
                 }
                 else if (valueRules.equals("5. Student Admission")) {
-                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, UndergraduateRulesAdmission.class);
                     in.putExtra("index",index);
                     startActivity(in);
                 }
@@ -69,17 +69,17 @@ public class UndergraduateRulesAndRegulationsActivity extends AppCompatActivity 
                     startActivity(in);
                 }
                 else if (valueRules.equals("7. Academic Calendar")) {
-                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, UndergraduateRulesAcademicCalendar.class);
                     in.putExtra("index",index);
                     startActivity(in);
                 }
                 else if (valueRules.equals("8. Duration of Programme and Course Structure")) {
-                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, UndergraduateRulesDurationOfProgramme.class);
                     in.putExtra("index",index);
                     startActivity(in);
                 }
                 else if (valueRules.equals("9. Course Designation and Numbering Systems")) {
-                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, UndergraduateRulesCourseDesignation.class);
                     in.putExtra("index",index);
                     startActivity(in);
                 }
@@ -158,33 +158,25 @@ public class UndergraduateRulesAndRegulationsActivity extends AppCompatActivity 
                     in.putExtra("index",index);
                     startActivity(in);
                 }
-                else if (valueRules.equals("14. Grading System, Calculation of GPA and Cumulative GPA, and Conversion of Marks")) {
-                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
-                    in.putExtra("index",index);
-                    startActivity(in);
-                }
+
                 else if (valueRules.equals("14. Grading System, Calculation of GPA and Cumulative GPA, and Conversion of Marks")) {
                     Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
                     in.putExtra("index",index);
                     startActivity(in);
                 }
                 else if (valueRules.equals("14.1 Grading System")) {
-                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, UndergraduateRulesGradingSystem.class);
                     in.putExtra("index",index);
                     startActivity(in);
                 }
+
                 else if (valueRules.equals("14.2 Calculation of GPA and Cumulative GPA")) {
-                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
-                    in.putExtra("index",index);
-                    startActivity(in);
-                }
-                else if (valueRules.equals("14.2 Calculation of GPA and Cumulative GPA")) {
-                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, UndergraduateRulesCalculationGpaAndCgpa.class);
                     in.putExtra("index",index);
                     startActivity(in);
                 }
                 else if (valueRules.equals("14.3 Conversion of Grade into Marks")) {
-                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, UndergraduateRulesGradeToMarks.class);
                     in.putExtra("index",index);
                     startActivity(in);
                 }
@@ -194,17 +186,17 @@ public class UndergraduateRulesAndRegulationsActivity extends AppCompatActivity 
                     startActivity(in);
                 }
                 else if (valueRules.equals("15.1 The distribution of marks for a given course will be as follows")) {
-                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, UndergraduateRulesDistributionOfMarks.class);
                     in.putExtra("index",index);
                     startActivity(in);
                 }
-                else if (valueRules.equals("15.2")) {
+                else if (valueRules.equals("15.2 It is desirable that weightage")) {
                     Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
                     in.putExtra("index",index);
                     startActivity(in);
                 }
                 else if (valueRules.equals("15.3 Basis for distribution of marks in class participation and attendance will be as follows")) {
-                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, UndergraduateRulesDistributionOfMarksClassParticipation.class);
                     in.putExtra("index",index);
                     startActivity(in);
                 }
@@ -249,7 +241,7 @@ public class UndergraduateRulesAndRegulationsActivity extends AppCompatActivity 
                     startActivity(in);
                 }
                 else if (valueRules.equals("20. Student Classification")) {
-                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, ContentUndergraduateRulesAndRegulationsActivity.class);
+                    Intent in = new Intent(UndergraduateRulesAndRegulationsActivity.this, UndergraduateRulesStudentClassification.class);
                     in.putExtra("index",index);
                     startActivity(in);
                 }

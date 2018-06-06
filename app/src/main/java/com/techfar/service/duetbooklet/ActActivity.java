@@ -12,8 +12,8 @@ public class ActActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_act);
-        act=(PDFView) findViewById(R.id.pdfact);
 
+        act=(PDFView) findViewById(R.id.pdfact);
         act.fromAsset("duetact.pdf").load();
     }
 }

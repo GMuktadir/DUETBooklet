@@ -453,5 +453,14 @@
 
 
         </TableLayout>
+        <Button
+            android:id="@+id/DetailsTwoTwo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Details"
+            android:textColor="#c22c15"
+            android:textAllCaps="false"
+            android:background="#fad3cd"
+            />
     </LinearLayout>
 </ScrollView>

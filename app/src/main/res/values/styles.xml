@@ -24,11 +24,8 @@
         <item name="android:layout_gravity">left</item>
     </style>
 
-    <style name="RulesAndRegulationHead">
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">18dp</item>
 
-    </style>
+
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>

@@ -14,6 +14,7 @@ public class ContentUndergraduateRulesAndRegulationsActivity extends AppCompatAc
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content_undergraduate_rules_and_regulations);
+
         topicHead=findViewById(R.id.topicTitle);
         txt=findViewById(R.id.RulesContent);
 
@@ -33,7 +34,7 @@ public class ContentUndergraduateRulesAndRegulationsActivity extends AppCompatAc
                 String valueUGRules = UGRules[Integer.parseInt(i)];  //Retrieve title from array by index
                 String valueUGRulesDetails = UGRulesDetails[Integer.parseInt(i)]; //retrieve details from array by index
 
-
+              
                 topicHead.setText(valueUGRules);
                 txt.setText(valueUGRulesDetails);
 

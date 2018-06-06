@@ -7,15 +7,33 @@
     tools:context="com.techfar.service.duetbooklet.UndergraduateRulesAndRegulationsActivity">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0e5820"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:padding="5dp"
+            android:text="Undergraduate Rules And Regulations"
+            android:textColor="#7af294"
+            android:textSize="20sp"
+            android:textStyle="bold" />
     <ListView
         android:id="@+id/listviewpro"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="#0e5820"
+        android:background="#c3ffc6"
         android:listSelector="@color/colorSelector"
         android:dividerHeight="2dp"
         >
 
     </ListView>
+    </LinearLayout>
 
 </LinearLayout>

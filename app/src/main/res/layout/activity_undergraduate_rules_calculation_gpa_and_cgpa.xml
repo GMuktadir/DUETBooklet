@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.techfar.service.duetbooklet.UndergraduateRulesCalculationGpaAndCgpa">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="#a1201a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo3"/>
+            <TextView
+                android:id="@+id/contentUndergraduateRulesHead"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#7af294"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dhaka University of Engineering And Technology,Gazipur"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#030303"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:text="ACADEMIC ORDINANCE FOR UNDERGRADUATE STUDIE
+"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="3dp"
+            android:text="(Recommended in the 26th meeting of Academic Council held on 29/12/09  and Approved in the 39th meeting of Syndicate, held on 15/01/10)"
+            android:textColor="#030303"
+            />
+        <TextView
+            android:id="@+id/topicTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="14.2 Calculation of GPA and Cumulative GPA"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:maxLines="50"
+            android:text="Grade Point Average (GPA) is the weighted average of the grade points obtained in all the courses passed/completed by a student in a semester. ‘F’ grades will not be counted towards GPA calculation. GPA of a semester will be calculated as follows:"
+            android:textColor="#030303"
+            android:textSize="16dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="190dp"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/gpacalculation"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:maxLines="50"
+            android:text="where n is the total number of courses passed by the student, Ci is the number of credits allotted to a particular course i and Gi is the grade point corresponding to the grade awarded for i -th course.
+\nThe overall or Cumulative GPA gives the cumulative performance of the student from first semester up to any other semester to which it refers and is computed by dividing the total grade points (å. CiGi) accumulated up to the date by the total credit hours (åCi ).
+\nBoth GPA and Cumulative GPA will be rounded off to the second place of decimal for reporting.
+\nSuppose a student has completed five courses in a semester and obtained the following grades:
+"
+            android:textColor="#030303"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="190dp"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/gpacalculation2"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="190dp"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/gpacalculation3"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

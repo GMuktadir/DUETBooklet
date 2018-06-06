@@ -6,7 +6,7 @@
 
     <TextView
         android:id="@+id/lview"
-        android:background="#c3ffc6"
+
         android:padding="5dp"
         android:text="Dhaka University Of Engineering And Technology"
         android:textAllCaps="false"
@@ -19,3 +19,4 @@
 
         />
 </LinearLayout>
+<!--    android:background="#c3ffc6"-->

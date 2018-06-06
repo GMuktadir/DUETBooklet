@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DUETBooklet</string>
+    <string name="app_name">DUET RR and Curriculum</string>
     <string name="dept">Departments</string>
     <string name="para">A parse pictorially shows how the start symbol of a grammar derives a string in the language. If nonterminal A has a production A-> XYZ, then a parse tree may have an interior node labeled A with three children labeled X,Y and Z , from left to right.A parse pictorially shows how the start symbol of a grammar derives a string in the language. If nonterminal A has a production A-> XYZ, then a parse tree may have an interior node labeled A with three children labeled X,Y and Z , from left to right.</string>
     <string-array name="departments">
@@ -50,7 +50,7 @@
         <item>14.3 Conversion of Grade into Marks</item>
         <item>15. Distribution of Marks</item>
         <item>15.1 The distribution of marks for a given course will be as follows</item>
-        <item>15.2</item>
+        <item>15.2 It is desirable that weightage</item>
         <item>15.3 Basis for distribution of marks in class participation and attendance will be as follows</item>
         <item>15.4</item>
         <item>16. Class Tests, Quizzes and Spot Tests</item>
@@ -72,43 +72,145 @@
     </string-array>
 
 
+    <string-array name="PostgraduateRulesAndRegulations">
+        <item>1. Definitions</item>
+        <item>2. Committee</item>
+        <item>3. Postgraduate Course Co-ordinator</item>
+
+    </string-array>
+
+    <string-array name="TopTitlePostRulesAndRegulations">
+        <item>Academic Rules and Regulations for Postgraduate Programs</item>
+        <item>Academic Rules and Regulations for M Sc. Engg. and M Engg. Degree</item>
+        <item>Academic Rules and Regulations for M Phil./M Sc. Degree</item>
+        <item>Academic Rules and Regulations for Doctor of Philosophy (Ph. D) Degree</item>
+
+    </string-array>
+
+    <string-array name="PostgraduateRulesAndRegulationsDetails">
+        <item>1
+(i) ‘University’ means the Dhaka University of Engineering and Technology, Gazipur abbreviated as DUET, Gazipur.
+(ii)    ‘Syndicate’ means the Syndicate of the University.
+(iii)   ‘Academic Council’ means the Academic Council of the University.
+(iv)    ‘Vice-Chancellor’ means the Vice-Chancellor of the University.
+(v) ‘Pro-Vice Chancellor’ means the Pro-Vice Chancellor of the University.
+(vi)    ‘Faculty’ means the Faculty of the University.
+(vii)   ‘Dean’ means the Dean of the Faculty of the University.
+(viii)  ‘Department’ means the Department of the University.
+(ix)    ‘Head’ means the Head of the Department of the University.
+(x) ‘Registrar’ means the Registrar of the University.
+(xi)    ‘Controller’ means the Controller of Examinations of the University.
+(xii)   ‘CASR’ means the Committee for Advanced Studies and Research of the University.
+(xiii)  ‘ECF’ means the Executive Committee of the Faculty of the University.
+(xiv)   ‘ACPG’ means the Academic Committee for the Postgraduate Program of a Department of the University.
+(xv)    ‘Equivalence Committee’ means the Committee for determining the equivalency of Undergraduate and Postgraduate Degrees obtained from other Universities.
+(xvi)   ‘Semester’ means program of study to be completed within a specific period of time, an Academic Year will consist of two semesters.
+
+        </item>
+        <item>2
+          2.1   Committee for Advanced Studies and Research (CASR):
+    2.1.1 The CASR shall consist of the following members:
+(i) Vice-Chancellor or his/her nominated person;    Chairman
+(ii)    Pro-Vice Chancellor Member
+(iii)   Three Professors of the University to be nominated by the Syndicate;    Member
+(iv)    Three Teachers of the University having research capabilities and experience to be nominated by the Academic Council not below the rank of Associate Professor; Member
+(v) Two Experts from outside the University to be nominated by the Vice-Chancellor; Member
+(vi)    Director (Research and Extension).    Member Secretary
+2.1.2 At least 50% of members will fulfill the quorum.
+2.1.3 The term of the nominated members shall be of three years. A nominated member shall continue to act as member till a nominated substitute takes over.
+2.1.4 The functions of the Committee shall be as follows:
+(i) to recommend the concerned authorities for promotion of research and development of advisory and extension services of the University;
+(ii)    to approve the proposals for research, advisory and extension services submitted by the different Departments of the University;
+(iii)   to approve the Doctoral Committee;
+(iv)    to approve the Teacher/Expert’s name for supervision of research;
+(v) to recommend the Academic Council about the Board of Examiners for research evaluations;
+(vi)    to do such other acts as may be assigned or referred to it by the Vice-Chancellor, the Academic Council or the Syndicate.
+2.2 Executive Committee of Faculty (ECF):
+2.2.1 The ECF shall consist of the following members:
+
+(i) Dean of the Faculty;    Chairman
+(ii)    All Heads under the Faculty;    Member
+(iii)   All Professors and Associate Professors under the Faculty;  Member
+(iv)    Three Teachers of the University from outside the Faculty (closely related to the subjects) nominated by the Academic Council;  Member
+(v) Two Experts, having experience in one or more relevant field but not working at the University to be nominated by the Academic Council. Member
+
+2.2.2   The Chairman will nominate one of the members as mentioned in Article no. 2.2.1(iii) to act as the Member Secretary.
+2.2.3   At least 50% of members will fulfill the quorum.
+2.2.4 The term of the nominated members shall be of three years. A nominated member shall continue to act as member till a nominated substitute takes over.
+2.2.5 The functions of the Committee shall be as follows:
+(i) to select the courses, syllabuses and marks to award Postgraduate Degrees;
+(ii)    to recommend the Academic Council about the requirements for degree, diploma, certificate and other honors;
+(iii)   to recommend the Academic Council to create/restructuring posts for the Teacher and Researcher of the concerned Departments under the Faculty;
+(iv)    to take necessary actions as may be conferred on it by Academic Council.
+2.3 Academic Committee for the Postgraduate (ACPG) Program:
+2.3.1   The ACPG shall consist of the following members:
+(i) Head of the Department; Chairman
+(ii)    All Professors and Associate Professors of the Department and all other Teachers offering Postgraduate courses; Member
+(iii)   One Professor from the relevant field from any other University / Institute to be nominated by the Vice-Chancellor;     Member
+(iv)    One Expert from the relevant field having experience in any industry, research or commercial organization to be nominated by the Academic Council.  Member
+2.3.2   The Chairman will nominate one of the members as mentioned in Article no. 2.3.1(ii) to act as the Member Secretary.
+2.3.3   At least 50% of members will fulfill the quorum.
+2.3.4   The term of the nominated members shall be of three years. A nominated member shall continue to act as member till a nominated substitute takes over.
+2.3.5   The functions of the Committee shall be as follows:
+(i) to formulate and review the courses and syllabuses to award Postgraduate Degrees;
+(ii) to propose the names of paper setters and examiners for different Postgraduate examinations to the Vice-Chancellor;
+(iii) to perform such other functions as may be conferred on it by ECF, Academic Council, Syndicate and the University Act.
+2.4 Equivalence Committee:
+2.4.1 The Equivalence Committee shall consist of the following members:
+(i) Vice-Chancellor or his/her nominated person;    Chairman
+(ii)    Pro-Vice Chancellor;    Member
+(ii)    Deans of the Faculties; Member
+(iii)   Head of the Department concerned;   Member
+(iv)    Two Professors of the University to be nominated by the Academic Council;   Member
+(v) One Professor of the University to be nominated by the Vice-Chancellor. Member
+2.4.2   The Chairman will nominate one of the members as mentioned in Article no. 2.4.1(iv) or (v) to act as the Member Secretary.
+2.4.3   At least 50% of members will fulfill the quorum.
+2.4.4   The term of the nominated members shall be of three years. A nominated member shall continue to act as member till a nominated substitute takes over.
+2.4.5 The functions of the Committee shall be as follows:
+(i) to assess the Degrees obtained from other Universities / Institutes;
+        </item>
+        <item>3
+            The Member Secretary of the ACPG of the Department will act as the Postgraduate Course Co-ordinator of that Department. The Course Co-ordinator should coordinate all the related activities regarding the respective Postgraduate program and will preserve all the related documents and records.
+        </item>
+    </string-array>
+
     <string-array name="UndergraduateRulesAndRegulationsDetails">
         <item>1
-            1.1 University; means the Dhaka University of Engineering and Technology, Gazipur abbreviated as DUET, Gazipur.
-            1.2    ‘Syndicate’ means the Syndicate of the University,
-            1.3    ‘Academic Council’ means the Academic Council of the University.
-            1.4    ‘Chancellor’ means the Chancellor of the University.
-            1.5    ‘Vice-Chancellor’ means the Vice-Chancellor of the University.
-            1.6    ‘Dean’ means the Dean of a faculty of the University.
-            1.7    ‘Head of the Department’ means the Head of a department of the University.
-            1.8    ‘Registrar’ means the Registrar of the University.
-            1.9    ‘Academic Committee’ means the Academic Committee for Undergraduate Studies (ACUG) of a degree awarding department of the University.
-            1.10    ‘Degree’ means the degree of Bachelor of Science in a particular discipline of Engineering offered by the University.
-            1.11    ‘Departmental Monitoring Committee’ means the Committee for upgrading/changing the Undergraduate Curriculum and the Course system and monitoring the teacher-student activities.
-            1.12    ‘Degree Equivalence Committee’ means the committee for equivalencing different degrees obtained from home and/or abroad.
-            1.13    ‘Teacher’ means Professor, Associate Professor, Assistant Professor, Lecturer and any other person approved as a teacher by the University.
-            1.14   ‘Student’ means Student who has been admitted into the regular academic curriculum of the University.
+           \n 1.1 University; means the Dhaka University of Engineering and Technology, Gazipur abbreviated as DUET, Gazipur.
+           \n 1.2    ‘Syndicate’ means the Syndicate of the University,
+           \n 1.3    ‘Academic Council’ means the Academic Council of the University.
+           \n 1.4    ‘Chancellor’ means the Chancellor of the University.
+           \n 1.5    ‘Vice-Chancellor’ means the Vice-Chancellor of the University.
+           \n 1.6    ‘Dean’ means the Dean of a faculty of the University.
+           \n 1.7    ‘Head of the Department’ means the Head of a department of the University.
+          \n  1.8    ‘Registrar’ means the Registrar of the University.
+          \n  1.9    ‘Academic Committee’ means the Academic Committee for Undergraduate Studies (ACUG) of a degree awarding department of the University.
+           \n 1.10    ‘Degree’ means the degree of Bachelor of Science in a particular discipline of Engineering offered by the University.
+           \n 1.11    ‘Departmental Monitoring Committee’ means the Committee for upgrading/changing the Undergraduate Curriculum and the Course system and monitoring the teacher-student activities.
+           \n 1.12    ‘Degree Equivalence Committee’ means the committee for equivalencing different degrees obtained from home and/or abroad.
+           \n 1.13    ‘Teacher’ means Professor, Associate Professor, Assistant Professor, Lecturer and any other person approved as a teacher by the University.
+           \n 1.14   ‘Student’ means Student who has been admitted into the regular academic curriculum of the University.
         </item>
         <item>2
             The University shall have the following Faculties:
-            (i) Faculty of Civil Engineering is comprised of
-            (a)  Department of Civil Engineering
-            (b)  Department of Architecture
-            (ii) Faculty of Electrical and Electronic Engineering is comprised of
-            (a) Department of Electrical and Electronic Engineering
-            (b) Department of Computer Science and Engineering
-            (iii) Faculty of Mechanical Engineering is comprised of
-            (a)  Department of Mechanical Engineering
-            (b)  Department of Textile Engineering
-            (c)  Department of Industrial and Production Engineering
-            (d)  Department of Chemical and Food Engineering
-            (iv) Faculty of Engineering is comprised of
-            (a)  Department of Chemistry
-            (b)  Department of Mathematics
-            (c)  Department of Physics
-            (d)  Department of Humanities and Social Sciences
-            (e)  Department of Materials Science and Engineering
-            (v) Any other Faculty to be instituted by the Syndicate on the recommendation of the Academic Council from time to time.
+           \n\n (i) Faculty of Civil Engineering is comprised of
+           \n(a)  Department of Civil Engineering
+           \n (b)  Department of Architecture
+            \n\n(ii) Faculty of Electrical and Electronic Engineering is comprised of
+            \n(a) Department of Electrical and Electronic Engineering
+            \n(b) Department of Computer Science and Engineering
+            \n\n(iii) Faculty of Mechanical Engineering is comprised of
+            \n(a)  Department of Mechanical Engineering
+            \n(b)  Department of Textile Engineering
+            \n(c)  Department of Industrial and Production Engineering
+            \n(d)  Department of Chemical and Food Engineering
+           \n\n (iv) Faculty of Engineering is comprised of
+           \n (a)  Department of Chemistry
+           \n (b)  Department of Mathematics
+           \n (c)  Department of Physics
+            \n(d)  Department of Humanities and Social Sciences
+           \n (e)  Department of Materials Science and Engineering
+           \n (v) Any other Faculty to be instituted by the Syndicate on the recommendation of the Academic Council from time to time.
 
 
         </item>
@@ -116,45 +218,45 @@
             The University shall have the following Departments:
         </item>
         <item>4
-            (i)   Department of Civil Engineering
-            (ii) Department of Electrical and Electronic Engineering
-            (iii) Department of Mechanical Engineering
-            (iv) Department of Computer Science and Engineering
-            (v) Department of Textile Engineering
-            (vi) Any other department to be instituted by the Syndicate on the recommendation of the Academic Council from time to time.
+           \n (i)   Department of Civil Engineering
+           \n (ii) Department of Electrical and Electronic Engineering
+           \n (iii) Department of Mechanical Engineering
+            \n(iv) Department of Computer Science and Engineering
+            \n(v) Department of Textile Engineering
+           \n (vi) Any other department to be instituted by the Syndicate on the recommendation of the Academic Council from time to time.
 
         </item>
         <item>4
-            (i)      Department of Civil Engineering
-            (ii)      Department of Electrical and Electronic Engineering
-            (iii)     Department of Mechanical Engineering
-            (iv)     Department of Computer Science and Engineering
-            (v)     Department of Textile Engineering
-            (vi)     Department of Mathematics
-            (vii)    Department of Physics
-            (viii)   Department of Chemistry
-            (ix)     Department of Humanities
-            (x)     Any other department that may be instituted by the Syndicate on the recommendation of the Academic Council from time to time.
+           \n (i)      Department of Civil Engineering
+           \n (ii)      Department of Electrical and Electronic Engineering
+            \n(iii)     Department of Mechanical Engineering
+            \n(iv)     Department of Computer Science and Engineering
+            \n(v)     Department of Textile Engineering
+            \n(vi)     Department of Mathematics
+            \n(vii)    Department of Physics
+           \n (viii)   Department of Chemistry
+           \n (ix)     Department of Humanities
+           \n (x)     Any other department that may be instituted by the Syndicate on the recommendation of the Academic Council from time to time.
 
         </item>
         <item>5
             The University shall offer courses leading to the award of the following degrees:
-            i.	Bachelor of Science in Civil Engineering abbreviated as  B. Sc. Engineering (Civil)
-            ii.	Bachelor of Science in Computer Science and Engineering abbreviated as B. Sc. Engineering (Computer Science and Engi¬neering)
-            iii.	Bachelor of Science in Electrical and Electronic Engineering abbreviated as B. Sc. Engineering (Electrical and Electronic)
-            iv.	achelor of Science in Mechanical Engineering abbreviated as B. Sc. Engineering (Mechanical)
-            v.	Bachelor of Science in Textile Engineering abbreviated as B. Sc. Engineering (Textile)
-            vi.	 Any other degree that may be awarded by a department with the approval of the syndicate on recommendation of the Academic Council from time to time.
+          \n  i.	Bachelor of Science in Civil Engineering abbreviated as  B. Sc. Engineering (Civil)
+           \n ii.	Bachelor of Science in Computer Science and Engineering abbreviated as B. Sc. Engineering (Computer Science and Engi¬neering)
+           \n iii.	Bachelor of Science in Electrical and Electronic Engineering abbreviated as B. Sc. Engineering (Electrical and Electronic)
+           \n iv.	achelor of Science in Mechanical Engineering abbreviated as B. Sc. Engineering (Mechanical)
+           \n v.	Bachelor of Science in Textile Engineering abbreviated as B. Sc. Engineering (Textile)
+          \n  vi.	 Any other degree that may be awarded by a department with the approval of the syndicate on recommendation of the Academic Council from time to time.
 
         </item>
         <item>6
-            5.1 The four academic years of study for the degree of B. Sc. Engineering shall be designated as first year class, second year class, third year class and fourth year class in succeeding higher levels of study. Each academic year comprises two semesters, i.e., 1st and 2nd semester. Students shall generally be admitted into the 1st year 2nd semester class. The 1st semester of 1st year class is exempted because of the candidates’ completion of minimum 3 or 4 years Diploma in Engineering backgrounds after 10 years of schooling.
-            5.2    An Admission Committee shall be formed in each academic session by the Academic Council for admission into 1st year B.Sc. Engg. program.
-            5.3    A candidate for admission into the 1st year class must have passed the minimum 3 or 4 years Diploma in Engineering examination from Bangladesh Technical Education Board (after 10 years of schooling) or any examination recognized as equivalent there to and must also fulfill all other requirements as may be prescribed by the Admission Committee. In case of confusion regarding the equivalence the case may be referred to the Degree Equivalence Committee. However, a candidate must fulfill the requirements mentioned below:
-            Sl. No.	Name of the Department	Entry Requirements
-                1.	Civil Engineering	Diploma in Engineering (Civil/ Civil with wood specialization/Architecture with special optional subjects)
-                2.	Electrical and Elec¬tronic Engineering	Diploma in Engineering (Electrical/ Electronics)
-                3.	Mechanical Engineering	Diploma in Engineering (Mechanical/ Power/ Chemical/ Automobile/ Refrigeration and Air Conditioning/ Food Technology)
+          \n  5.1 The four academic years of study for the degree of B. Sc. Engineering shall be designated as first year class, second year class, third year class and fourth year class in succeeding higher levels of study. Each academic year comprises two semesters, i.e., 1st and 2nd semester. Students shall generally be admitted into the 1st year 2nd semester class. The 1st semester of 1st year class is exempted because of the candidates’ completion of minimum 3 or 4 years Diploma in Engineering backgrounds after 10 years of schooling.
+           \n 5.2    An Admission Committee shall be formed in each academic session by the Academic Council for admission into 1st year B.Sc. Engg. program.
+            \n5.3    A candidate for admission into the 1st year class must have passed the minimum 3 or 4 years Diploma in Engineering examination from Bangladesh Technical Education Board (after 10 years of schooling) or any examination recognized as equivalent there to and must also fulfill all other requirements as may be prescribed by the Admission Committee. In case of confusion regarding the equivalence the case may be referred to the Degree Equivalence Committee. However, a candidate must fulfill the requirements mentioned below:
+            \nSl. No.	Name of the Department	Entry Requirements
+              \n  1.	Civil Engineering	Diploma in Engineering (Civil/ Civil with wood specialization/Architecture with special optional subjects)
+              \n  2.	Electrical and Elec¬tronic Engineering	Diploma in Engineering (Electrical/ Electronics)
+               \n 3.	Mechanical Engineering	Diploma in Engineering (Mechanical/ Power/ Chemical/ Automobile/ Refrigeration and Air Conditioning/ Food Technology)
                 4.	Computer Science and Engineering	Diploma in Engineering (Computer)
                 5.	Textile Engineering	Diploma in Engineering (Textile)
                             Sl. No.	Name of the Department	Entry Requirements
@@ -310,7 +412,7 @@ The course designation system is illustrated by two examples as shown below:
         </item>
         <item>10.4
             Non credit course(s) may be offered to a student to improve his/her knowledge in some specific fields. The credits in these courses will not be counted towards GPA and Cumulative GPA calculation but will be reflected in the transcript as satisfactory (S)/unsatisfactory (U). Non credit course(s) may be offered under the following circumstances:
-If a student’s Thesis/Project supervisor feels that the study/design is highly related to course(s) offered by any other department for its students, he can recommended to the concerned Head of the Department for participation of the student(s) in the course(s). Such registration of course(s) will not affect the normal course registration of the student.
+\nIf a student’s Thesis/Project supervisor feels that the study/design is highly related to course(s) offered by any other department for its students, he can recommended to the concerned Head of the Department for participation of the student(s) in the course(s). Such registration of course(s) will not affect the normal course registration of the student.
 
 
         </item>
@@ -319,12 +421,12 @@ If a student’s Thesis/Project supervisor feels that the study/design is highly
         </item>
         <item>11.1
             Consistent with its resilient policy to keep pace with new development in the field of Engineering and Technology, the university will update its course curricula at frequent intervals. Such updating aims not only to include the expanding frontiers of knowledge in the various fields but also to accommodate the changing social, industrial and professional needs of the country. This can be done through deletion and modification of some of the current courses and also through the introduction of new ones.
-ACUG of each department will constitute a Departmental monitoring Committee with three senior teachers of the department as members and Head of the department as chairman. This committee will monitor and evaluate the effectiveness of the Course System within the department. In addition to other teachers of the department, the committee may also propose from time to time to the ACUG any changes and modifications needed for upgrading the Undergraduate Curricula and the Course System.
+\nACUG of each department will constitute a Departmental monitoring Committee with three senior teachers of the department as members and Head of the department as chairman. This committee will monitor and evaluate the effectiveness of the Course System within the department. In addition to other teachers of the department, the committee may also propose from time to time to the ACUG any changes and modifications needed for upgrading the Undergraduate Curricula and the Course System.
 
         </item>
         <item>11.2
             One adviser will be assigned for a batch of students by the Head of the Department who will advise each student on the courses to be taken by the student. The adviser will discuss with the student his academic programme and then decide the number and nature of courses for which he/she can register. However, it is the student’s responsibility to keep contact with his/her adviser who will review and eventually approve the student’s specific plan of study and check on subsequent progress. The adviser should generally be of the rank of an Assistant Professor or above from the concerned department. However, in case of shortage of teachers, lecturer may also act as adviser.
-For a student of second and subsequent semesters, the number and nature of courses for which he/she can register will be decided on the basis of his/her academic performance during the previous semester. The adviser will advise the students to register for the courses during the next semester within the framework of the guidelines in respect of minimum/maximum credit hour limits. The Adviser is also authorized to permit the student to drop one or more courses based on his academic performance. Special provisions exist for academically weak students with regard to make-up courses.
+\nFor a student of second and subsequent semesters, the number and nature of courses for which he/she can register will be decided on the basis of his/her academic performance during the previous semester. The adviser will advise the students to register for the courses during the next semester within the framework of the guidelines in respect of minimum/maximum credit hour limits. The Adviser is also authorized to permit the student to drop one or more courses based on his academic performance. Special provisions exist for academically weak students with regard to make-up courses.
 
 
         </item>
@@ -333,14 +435,14 @@ For a student of second and subsequent semesters, the number and nature of cours
         </item>
         <item>12
             Any student who wants to study a course is required to register formally. The following steps will be maintained during registration:
-1.	Student (both resident/attached) will collect registration form from respective office of hall of residence and take the signature of provost to ensure that he has no dues related to the hall.
-2.	After collecting registration form, each student will fill up his/her course registration form in consultation with his/her adviser. The advisor will write the number of courses and sign it.
-3.	Students will collect the fee deposit form from account section of the university.
-4.	After filling up the fee deposit form, students will deposit registration fee in the bank prescribed by the university.
-5.	Students will submit registration form and the fee deposit form to his/her adviser.
-6.	Adviser will submit duly signed registration form along with fee deposit form (copy for accounts section) to the head of the department.
-7.	Head of department will send the duly signed course registration form to the academic section.
-8.	The requisite number of copies of the course registration form will be made by the academic section for distribution among the adviser, the head and controller of examination.
+\n1.	Student (both resident/attached) will collect registration form from respective office of hall of residence and take the signature of provost to ensure that he has no dues related to the hall.
+\n2.	After collecting registration form, each student will fill up his/her course registration form in consultation with his/her adviser. The advisor will write the number of courses and sign it.
+\n3.	Students will collect the fee deposit form from account section of the university.
+\n4.	After filling up the fee deposit form, students will deposit registration fee in the bank prescribed by the university.
+\n5.	Students will submit registration form and the fee deposit form to his/her adviser.
+\n6.	Adviser will submit duly signed registration form along with fee deposit form (copy for accounts section) to the head of the department.
+\n7.	Head of department will send the duly signed course registration form to the academic section.
+\n8.	The requisite number of copies of the course registration form will be made by the academic section for distribution among the adviser, the head and controller of examination.
 
         </item>
         <item>12.1
@@ -348,13 +450,13 @@ For a student of second and subsequent semesters, the number and nature of cours
         </item>
         <item>12.2
             A student will be allowed to register those courses subject to the capacity constrains and satisfactory completion of pre-requisite courses. If a student fails in a pre-requisite course in any semester, the concerned department monitoring committee may allow him/her to register for a course which builds on the pre-requisite course provided his/her attendance and grades in continuous assessment in the said pre-requisite course are found to be satisfactory.
-Registration will be done within the first ten working days of each semester. Late registration is, however, permitted under special circumstances within next five working days on payment of late registration fee as decided by the authority. Students having outstanding dues to the University or a hall of residence shall not be permitted to register. All students have, therefore, to clear their dues prior to complete the course registration procedure.
+\nRegistration will be done within the first ten working days of each semester. Late registration is, however, permitted under special circumstances within next five working days on payment of late registration fee as decided by the authority. Students having outstanding dues to the University or a hall of residence shall not be permitted to register. All students have, therefore, to clear their dues prior to complete the course registration procedure.
 
         </item>
         <item>12.3
             A student would have some limited options to add or replace courses from his/her registration list, within the first ten working days from the beginning of the semester. Dropping of a course is allowed within twenty working days from the beginning of the semester. Adjustment of initially registered courses in any semester can be done by duly completing the Course Adjustment Form. These forms will normally be available in the academic section.
-Any student willing to add, replace or drop courses will have to fill up a Course Adjustment Form in consultation with his/her adviser. The original copy of the Course Adjustment Form will be submitted to the academic section, and then the requisite number of copies will be made by the academic section for distribution among the concerned adviser, Head, student and controller of examination.
-Any changes in courses must be approved by the Adviser and the concerned Head of the department. The Course Adjustment Form will have to be submitted to the academic section after duly filled in and signed by the persons concerned.
+\nAny student willing to add, replace or drop courses will have to fill up a Course Adjustment Form in consultation with his/her adviser. The original copy of the Course Adjustment Form will be submitted to the academic section, and then the requisite number of copies will be made by the academic section for distribution among the concerned adviser, Head, student and controller of examination.
+\nAny changes in courses must be approved by the Adviser and the concerned Head of the department. The Course Adjustment Form will have to be submitted to the academic section after duly filled in and signed by the persons concerned.
 
         </item>
         <item>12.4
@@ -362,15 +464,15 @@ Any changes in courses must be approved by the Adviser and the concerned Head of
         </item>
         <item>13
             13.1  The names of the students shall be struck off and removed from the student list on the following grounds:
-(i)     Non-payment of University fees and dues within the prescribed period.
-(ii)    Forced to discontinue his/her studies under disciplinary rules.
-(iii)   Withdrawal of names from the University on grounds acceptable to the Vice-Chancellor of the University after having cleared all dues.
-(iv)   Failure to earn the required credits for graduation as outlined in the respective curriculum and/or fulfill the Cumulative GPA requirements within the maximum allowed time of 7 academic years including any period of punishment. On valid medical grounds, the period may be extended by the approval of Academic Council.
-13.2   In case a student whose name has been struck off the student list under clause (i) of Article 13.1 seeks re-admission within the session in which his/her name was struck off, he/she shall be re-admitted on payment of all the arrear fees and dues. But if he/she seeks re-admission in any subsequent session, the procedure for his/her re-admission will be the same as described under Article 13.3.
-13.3   Every student whose name has been struck off the student list by exercise of the clause (ii) of Article 13.1 seeking readmission after expiry of the period for which he/she was forced to discontinue his/her studies, shall submit an application to the Head of the Department in the prescribed form before the commencement of the session to which he/she seeks re-admission. The Head of the department shall forward the application to the Vice-Chancellor of the University with his remarks. In case the re-admission is allowed, the student will be required of payment of all dues to get him/herself admitted not later than one week from the date of permission given by the Vice-Chancellor. All re-admissions should preferably be completed before the session starts. The percentage of attendance of the readmitted students shall be counted from the date of re-admission.
-13.4   The application of a student for readmission will only be considered if he/she applies within two academic sessions from the semester of discontinuity in his/her studies in the University. Other than debarment as punishment under ordinance of the University relating to discipline, a student of any kind failing for any other reason whatsoever to become a candidate for a semester final examination in which he/she ought to have had in the usual process of his/her progressive academic activities, shall be considered to have  discontinued his/her studies for the relevant semester together with striking the name off from current student list and two such discontinuous periods will be considered equivalent to that for one academic session. The maximum period of discontinuity under no circumstances is to exceed two academic sessions during a student’s period of studies for the degree.
-13.5   No student who has withdrawn his/her name under clauses (iii) and (iv) of Article 13.1 shall be given re-admission.
-13.6   In case any application for re-admission is rejected, the student may appeal to the Academic Council for re-consideration. The decision of the Academic Council shall be final.
+\n(i)     Non-payment of University fees and dues within the prescribed period.
+\n(ii)    Forced to discontinue his/her studies under disciplinary rules.
+\n(iii)   Withdrawal of names from the University on grounds acceptable to the Vice-Chancellor of the University after having cleared all dues.
+\n(iv)   Failure to earn the required credits for graduation as outlined in the respective curriculum and/or fulfill the Cumulative GPA requirements within the maximum allowed time of 7 academic years including any period of punishment. On valid medical grounds, the period may be extended by the approval of Academic Council.
+\n13.2   In case a student whose name has been struck off the student list under clause (i) of Article 13.1 seeks re-admission within the session in which his/her name was struck off, he/she shall be re-admitted on payment of all the arrear fees and dues. But if he/she seeks re-admission in any subsequent session, the procedure for his/her re-admission will be the same as described under Article 13.3.
+\n13.3   Every student whose name has been struck off the student list by exercise of the clause (ii) of Article 13.1 seeking readmission after expiry of the period for which he/she was forced to discontinue his/her studies, shall submit an application to the Head of the Department in the prescribed form before the commencement of the session to which he/she seeks re-admission. The Head of the department shall forward the application to the Vice-Chancellor of the University with his remarks. In case the re-admission is allowed, the student will be required of payment of all dues to get him/herself admitted not later than one week from the date of permission given by the Vice-Chancellor. All re-admissions should preferably be completed before the session starts. The percentage of attendance of the readmitted students shall be counted from the date of re-admission.
+\n13.4   The application of a student for readmission will only be considered if he/she applies within two academic sessions from the semester of discontinuity in his/her studies in the University. Other than debarment as punishment under ordinance of the University relating to discipline, a student of any kind failing for any other reason whatsoever to become a candidate for a semester final examination in which he/she ought to have had in the usual process of his/her progressive academic activities, shall be considered to have  discontinued his/her studies for the relevant semester together with striking the name off from current student list and two such discontinuous periods will be considered equivalent to that for one academic session. The maximum period of discontinuity under no circumstances is to exceed two academic sessions during a student’s period of studies for the degree.
+\n13.5   No student who has withdrawn his/her name under clauses (iii) and (iv) of Article 13.1 shall be given re-admission.
+\n13.6   In case any application for re-admission is rejected, the student may appeal to the Academic Council for re-consideration. The decision of the Academic Council shall be final.
 
         </item>
         <item>14
@@ -463,26 +565,26 @@ Committee of minimum 3 members to be constituted by the Examination Committee)	3
         </item>
         <item>16
             (i)       For 2 credit courses 3 best out of 4, and for 3 and 4 credit courses 4 best out of 5 class tests may be taken for awarding marks. These may be considered as the minimum recommended number of class tests for any course. If the number of class tests administered in a course exceeds these suggested minimum numbers, then two-thirds best of all may be considered.
-(ii)      Duration of a class test should not exceed 15-20 minutes and materials covered should be what were taught in 2 to 4 immediate previous classes or most recent classes.
-(iii)     For convenience of conducting the class tests one class period time slot should be kept at the first period of each working day.
-(iv)     The dates for the class tests shall be fixed by the Course Coordinator in consultation with the Head of the Department shall be announced accordingly.
-(v)      Spot test will be considered as class test and duration of which should not exceed ten minutes. The materials covered should be what were taught in previous immediate class. The maximum number of spot test should not exceed more than four. Maximum 50% spot test will be considered.
-(vi)     All class tests shall ordinarily be of equal value. The result of each individual class test shall be posted for information of the students preferably before the next class test is held.
-(vii)    Quizzes will be held on the basis of sessional/lab/field work classes. Duration of a quiz should not exceed one hour.
+\n(ii)      Duration of a class test should not exceed 15-20 minutes and materials covered should be what were taught in 2 to 4 immediate previous classes or most recent classes.
+\n(iii)     For convenience of conducting the class tests one class period time slot should be kept at the first period of each working day.
+\n(iv)     The dates for the class tests shall be fixed by the Course Coordinator in consultation with the Head of the Department shall be announced accordingly.
+\n(v)      Spot test will be considered as class test and duration of which should not exceed ten minutes. The materials covered should be what were taught in previous immediate class. The maximum number of spot test should not exceed more than four. Maximum 50% spot test will be considered.
+\n(vi)     All class tests shall ordinarily be of equal value. The result of each individual class test shall be posted for information of the students preferably before the next class test is held.
+\n(vii)    Quizzes will be held on the basis of sessional/lab/field work classes. Duration of a quiz should not exceed one hour.
 
         </item>
         <item>17
             The courses in which a student has obtained ‘D’ or a higher grade will be counted as credits earned by him/her. Any course in which a student has obtained ‘F’ grade will not be counted towards his/her earned credit calculation. A student who obtains ‘F’ grade in any core course in any semester, he/she will have to repeat the course. If a student obtains ‘F’ in an optional course he/she may choose to repeat the course or take a substitute course, if available. No ‘F’ grade will be counted for GPA calculation but will stay permanently on the grade sheet and transcript. When a student will repeat a review course in which he/she previously obtained ‘F’ grade, he/she will not be eligible to get a grade higher than B in such a course.
-A student obtaining D grade in a course, will be allowed to repeat the course for the purpose of grade improvement if cumulative GPA of the student falls below 2.20 In such case he/she will be awarded the new grade that he/she obtains or retains his/her previous grade if he/she fails. A student obtaining ‘C’ or a better grade in a course will not be allowed to repeat the course for the purpose of grade improvement if cumulative GPA of the student falls below 2.20. Absence in semester final examination will result in ‘F’ grade unless he/she had withdrawn from the semester as per Article 12.5.
+\nA student obtaining D grade in a course, will be allowed to repeat the course for the purpose of grade improvement if cumulative GPA of the student falls below 2.20 In such case he/she will be awarded the new grade that he/she obtains or retains his/her previous grade if he/she fails. A student obtaining ‘C’ or a better grade in a course will not be allowed to repeat the course for the purpose of grade improvement if cumulative GPA of the student falls below 2.20. Absence in semester final examination will result in ‘F’ grade unless he/she had withdrawn from the semester as per Article 12.5.
 
         </item>
         <item>18
             The minimum cumulative GPA requirements for obtaining a B.Sc. Engineering degree is 2.20. The performance of a student will be evaluated in terms of two indices, viz. semester grade point average (GPA), and cumulative grade point average (cumulative GPA).
-Students will be considered to be making normal progress toward a degree if their Cumulative GPA for all courses attended is 2.20 or higher. Students who regularly maintain semester GPA of 2.20 or higher are making good progress toward their degrees and are in good standing with the University. Students who fail to maintain this minimum rate of progress will not be in good standing rather considered to be academically weak. This can happen when one or more of the following conditions exist:
-(i)      Semester GPA falls below 2.20 or
-(ii)      Cumulative GPA falls below 2.20 or
-(iii)     Earned credits fall below 15 times the number of semesters attended/studied
-All such students can make up deficiencies in GPA and credit requirements by completing ‘F’ graded course(s) and repeating ‘D’ graded course(s) in the next semester(s). When GPA and credit requirements are fulfilled, the student is considered to be returned to good standing.
+\nStudents will be considered to be making normal progress toward a degree if their Cumulative GPA for all courses attended is 2.20 or higher. Students who regularly maintain semester GPA of 2.20 or higher are making good progress toward their degrees and are in good standing with the University. Students who fail to maintain this minimum rate of progress will not be in good standing rather considered to be academically weak. This can happen when one or more of the following conditions exist:
+\n(i)      Semester GPA falls below 2.20 or
+\n(ii)      Cumulative GPA falls below 2.20 or
+\n(iii)     Earned credits fall below 15 times the number of semesters attended/studied
+\nAll such students can make up deficiencies in GPA and credit requirements by completing ‘F’ graded course(s) and repeating ‘D’ graded course(s) in the next semester(s). When GPA and credit requirements are fulfilled, the student is considered to be returned to good standing.
 
         </item>
         <item>19
@@ -514,14 +616,14 @@ All such students can make up deficiencies in GPA and credit requirements by com
         </item>
         <item>21
             Students who regularly maintain semester GPA of 2.20 or above satisfying the minimum credit requirements are making good progress toward their degrees and are in good standing with the University. Students who fail to maintain this minimum rate of progress may be placed on academic probation.
-The status of academic probation is a reminder/warning to the student that satisfactory progress towards graduation is not being made. A student may be placed on academic probation when either of the following conditions exist:
-(i)    The semester GPA falls below 2.20, or
-(ii)   The cumulative GPA falls below 2.20
-(iii)  Earned Credits fall below 15 times the number of Semester attended/studied.
-Students on probation are subject to such restrictions with respect to courses and extracurricular activities as may be imposed by the respective Head of the department. The minimum period of probation is one semester, but the usual period is for one academic year. This allows the academically weak student an opportunity to improve the GPA through the completing ‘F’ graded course(s) and repeating ‘D’ graded course(s) during the period. The probation may be extended for additional semesters until the student achieves an overall GPA of 2.20 or above. Once that condition is improved, the student is considered to be returned to good standing.
-Academic probation is not to be taken lightly rather to be considered very seriously. A student on academic probation who fails to maintain a GPA of at least 2.20 during two consecutive academic years may be suspended from the University. A student who has been suspended may apply for consideration to the Dean of the faculty, but this application will not be considered until the student remains suspended at least for one full semester.
-Petitions for reinstatement must set forth clearly the reasons for the previous unsatisfactory academic record and it must delineate the new conditions that have been created to prevent the recurrence of such work. Each such petition is to be considered individually on its own merits.
-After consideration of the petition in consultation with the student, adviser and the respective Head of the department, Dean in some cases, may reinstate the student if this is the first suspension. However, a second suspension will be regarded as final and absolute.
+\nThe status of academic probation is a reminder/warning to the student that satisfactory progress towards graduation is not being made. A student may be placed on academic probation when either of the following conditions exist:
+\n(i)    The semester GPA falls below 2.20, or
+\n(ii)   The cumulative GPA falls below 2.20
+\n(iii)  Earned Credits fall below 15 times the number of Semester attended/studied.
+\nStudents on probation are subject to such restrictions with respect to courses and extracurricular activities as may be imposed by the respective Head of the department. The minimum period of probation is one semester, but the usual period is for one academic year. This allows the academically weak student an opportunity to improve the GPA through the completing ‘F’ graded course(s) and repeating ‘D’ graded course(s) during the period. The probation may be extended for additional semesters until the student achieves an overall GPA of 2.20 or above. Once that condition is improved, the student is considered to be returned to good standing.
+\nAcademic probation is not to be taken lightly rather to be considered very seriously. A student on academic probation who fails to maintain a GPA of at least 2.20 during two consecutive academic years may be suspended from the University. A student who has been suspended may apply for consideration to the Dean of the faculty, but this application will not be considered until the student remains suspended at least for one full semester.
+\nPetitions for reinstatement must set forth clearly the reasons for the previous unsatisfactory academic record and it must delineate the new conditions that have been created to prevent the recurrence of such work. Each such petition is to be considered individually on its own merits.
+\nAfter consideration of the petition in consultation with the student, adviser and the respective Head of the department, Dean in some cases, may reinstate the student if this is the first suspension. However, a second suspension will be regarded as final and absolute.
 
         </item>
         <item>22
@@ -544,9 +646,9 @@ A student may take additional courses with the consent of his/her adviser in ord
             A student should not be absent from lab/sessional, quizzes, class tests, class participation, attendance, etc. during the semester. Such absence will naturally lead to reduction in grade points/marks, which count towards the final grade. Absence in semester final examination will result in ‘F’ grade.
         </item>
         <item>27
-            (i)    Students obtained ‘F’ Grade in theory course having registered previously will get opportunity for registration of one course in each semester as review. One will be allowed to sit for the review course examination without making any change of previously obtained class test and class performance and attendance marks.
-(ii)     Review course examination will be conducted separately at the end of the regular semester.
-(iii)    Any student who has failed in any sessional course(s) he may be allowed to complete the course(s) by attending the sessional classes with the students of next regular semester(s).
+           \n (i)    Students obtained ‘F’ Grade in theory course having registered previously will get opportunity for registration of one course in each semester as review. One will be allowed to sit for the review course examination without making any change of previously obtained class test and class performance and attendance marks.
+\n(ii)     Review course examination will be conducted separately at the end of the regular semester.
+\n(iii)    Any student who has failed in any sessional course(s) he may be allowed to complete the course(s) by attending the sessional classes with the students of next regular semester(s).
 
 
         </item>
@@ -556,6 +658,493 @@ A student may take additional courses with the consent of his/her adviser in ord
         </item>
 
     </string-array>
+    <string-array name="PostgraduateRulesAndRegulationsMsc">
+        <item>1. Degrees Offered</item>
+        <item>2. Eligibility for the Applicant</item>
+        <item>3. Admission and Registration Procedures</item>
+        <item>4. Academic Requirements and Regulations</item>
+        <item>5. Grading System</item>
+        <item>6. Thesis</item>
+        <item>7. Academic Calendar</item>
+        <item>8. Project</item>
+        <item>9. Cancellation of Admission</item>
+        <item>10. Academic Fees</item>
+        <item>11. Extension of Time for Completion of Degree</item>
+
+    </string-array>
+    <string-array name="PostgraduateRulesAndRegulationsMscDetails">
+        <item>1
+            The Masters Degrees to be offered by the University under the Rules and Regulations are as follows:
+\n  \n1.1 Master of Science in
+   \n (a) Civil Engineering (Environmental) abbreviated as      M Sc. Engg. (Civil and Environmental)
+  \n  (b) Civil Engineering (Geotechnical) abbreviated as M Sc. Engg. (Civil and Geotechnical)
+   \n (c) Civil Engineering (Structural) abbreviated as M Sc. Engg. (Civil and Structural)
+   \n (d) Civil Engineering (Transportation) abbreviated as      M Sc. Engg. (Civil and Transportation)
+   \n (e) Civil Engineering (Water Resources) abbreviated as    M Sc. Engg. (Civil and Water Resource)
+    \n(f) Environmental Engineering abbreviated as M Sc. Engg. (Environmental)
+   \n (g) Climate Change (Water and Environment) abbreviated as M Sc. Engg. in Climate Change (Water and Environment)
+   \n (h) Electrical and Electronic Engineering abbreviated as   M Sc. Engg. (EEE)
+   \n (i)  Mechanical Engineering abbreviated as M Sc. Engg. (ME)
+   \n (j) Computer Science and Engineering abbreviated as     M Sc. Engg. (CSE)
+   \n (k) Textile Engineering abbreviated as M Sc. Engg. (TE)
+    \n\n1.2 Master of Engineering in
+   \n (a) Civil Engineering (Environmental) abbreviated as    M Engg. (Civil and Environmental)
+    \n(b) Civil Engineering (Geotechnical) abbreviated as       M Engg. (Civil and Geotechnical)
+    \n(c) Civil Engineering (Structural) abbreviated as M Engg. (Civil and Structural)
+    \n(d) Civil Engineering (Transportation) abbreviated as     M Engg. (Civil and Transportation)
+    \n(e) Civil Engineering (Water Resources) abbreviated as M Engg. (Civil and Water Resource)
+   \n (f) Environmental Engineering abbreviated as M Engg. (Environmental)
+   \n (g) Climate Change (Water and Environment) abbreviated as M Engg. in Climate Change (Water and Environment)
+   \n (h) Electrical and Electronic Engineering abbreviated as M Engg. (EEE)
+   \n (i) Mechanical Engineering abbreviated as M Engg. (ME)
+   \n (j) Computer Science and Engineering abbreviated as    M Engg. (CSE)
+   \n (k) Textile Engineering abbreviated as M Engg. (TE)
+\n\n1.3 Any other Masters Degree in other branch of Engineering approved by the Syndicate on the recommendation of Academic Council may also be offered under the Rules and Regulations.
+        </item>
+        <item>2
+           2.1  In order to get admission to the Masters Degree Program an applicant
+\n(a) must have a minimum GPA of 3.00 out of 5.00 or 2.75 out of 4.00 or a first division in SSC or HSC or Diploma in Engg. or in equivalent examinations; and
+\n(b) must have a minimum CGPA of 2.75 out of 4.00 in   B Sc. Engg. in the relevant branch. In other cases, the Equivalence Committee will decide.
+\n(c) The above requirements may be relaxed for applicants on deputation or sponsored by Academic Institutions / Research Organizations / International Organizations / DUET Graduates. Such relaxation shall be recommended by the Admission Committee of the respective Department for approval of Academic Council.
+
+\n\n2.2 For M Sc. Engg. /M Engg. Degree Program in any branch, an applicant must have a B Sc. Engg. in the relevant branch or an equivalent Degree from any recognized University/Institute. The Equivalence Committee shall examine the equivalence and suitability an applicant’s Degree for admission.
+\n\n2.3 An applicant with a B Sc. Engg. Degree in other branches of engineering may also be eligible for admission into the M Sc. Engg. (Environmental) / M Engg.  (Environmental). In such cases, the selected candidate may require to undertake non-credit prerequisite courses at the Undergraduate and/or Postgraduate level as may be determined by the ACPG of the Department of Civil Engineering.
+ 
+\n\n3.  Admission and Registration Procedures
+\n3.1 Applications for admission to the above programs shall be invited through regular means of advertisement and shall be received by the Registrar office.
+\n3.2 On the recommendation of the respective ACPG through ECF, the rules for admission into the University for Postgraduate Program shall be framed by the Academic Council from time to time. CASR on its own may, if it deems fit, recommend such rules for admission for approval of the Academic Council.
+\n3.3 There shall be a Admission Committee in each Department as constituted by the respective ACPG on the recommendation of the Head of the Department.
+\n3.4 Before being finally selected for admission an applicant may require to sit for an oral and/or written test before the Admission Committee. S/he may require to take pre-requisite course(s) as may be prescribed by the Admission Committee.
+\n3.5 The selected applicants should complete their course registration and related tasks as per the announcement of the Registrar office of the University.
+
+\n\n4.  Academic Requirements and Regulations
+\n4.1 The minimum duration of M Sc. Engg. / M Engg. Program shall be three semesters and generally not more than 5 (five) Academic Years starting from the date of first registration. Each Academic Year shall consist of two semesters. The duration of a semester will be of minimum 13 (thirteen) weeks.
+\n4.2 The courses of a Program in a Department shall be proposed by the respective ACPG and approved by the Academic Council on the recommendation of respective ECF.
+\n4.3 The courses to be offered by a Department in any semester shall be determined by the respective Department.
+\n4.4 Academic progress of students shall be assessed in terms of credit hours earned by them. In a semester 1 (one) contact hour per week for theory courses or 3 (three) contact hours per week for Thesis/Project represent(s) 1 (one) credit hour. The number of credit hours for each course shall be specified in the syllabus of respective Department.
+\n4.4.1   For the Degree of M Sc. Engg., a student must earn a minimum of 36 credit hours of which 18 credit hours shall be assigned for a Thesis.
+\n4.4.2   For the Degree of M Engg., a student must                     earn a minimum of 36 credit hours of which   6 credit hours shall be assigned for a Project.
+\n4.5 A student may be allowed to switch from M Sc. Engg. to M Engg. on the recommendation of the respective ACPG through Head of the Department before the commencement of a semester.
+\n4.6 A student may be allowed to switch from M Engg. to M Sc. Engg. on the recommendation of the respective ACPG through Head of the Department and concerned Supervisor upon having the approval of the CASR before the commencement of a semester.
+\n4.7 There shall be two categories of student, namely, full-time student and part-time student.
+\n4.8 A full-time student must register a minimum of 12 (twelve) credit hours and a maximum of 15 (fifteen) credit hours per semester. If a full-time student gets an employment while continuing the program, s/he can continue the program as a part-time/full-time student with the written permission or leave from the employer.
+\n4.9 A student, serving in different organizations, may be admitted as part-time student with a written consent of the employer. A part-time student may be allowed to register a maximum of 9 (nine) credit hours in a semester.
+\n4.10    A student may be allowed to switch from part-time to full-time or vice versa on the recommendation of the respective ACPG through the Head of the Department before the commencement of a semester.
+\n4.11    A student may be permitted to withdraw and/or change their registered courses within 3 (three) working weeks from the commencement of that semester on the recommendation of the Course Co-ordinator and the Head of the Department. The concerned course Teacher and authorities will be informed of the decision.
+\n4.12    On the recommendation of the relevant ACPG through CASR and by the approval of the Academic Council, a student may be allowed to transfer a maximum of 9 (nine) credits for M Sc. Engg. and 15 (fifteen) credits for M Engg. of the required theory courses of this University completed by the student at a recognized University/Institute provided that the courses were not taken earlier than 3 (three) calendar years from the date of their first enrollment in the respective program at the University. In addition, the student must obtain a minimum GPA of 3.00 out of 4.00 or its equivalent and those courses should be equivalent to the theory courses offered at the University.
+\n4.13    If a student is unable to complete the final examination of a semester due to serious illness or serious accident or official commitment, s/he may apply to the Registrar in a prescribed form through respective Head of the Department for total withdrawal from the semester within a week after the end of the semester final examination. The application must be supported by a medical certificate from the Chief Medical Officer (CMO), DUET or relevant Official documents. The Academic Council will take the final decision about such application on the recommendation of the relevant ACPG.
+\n4.14    The qualifying requirement for graduation is that a student must earn a minimum CGPA of 2.65 based on the weighted average of their course work.
+\n4.15    2 (two) courses may be repeated for improvement with the prior approval of the Head of the Department on the recommendation of the Course Co-ordinator, provided that the student has a CGPA less than or equal to 2.65. In such cases, the better grade(s) amongst the previous examination and improvement examination would be retained.
+\n4.16    A student shall not be allowed to continue the Program if s/he obtains a total of 4 (four) or more ‘F’ grades during the period of their studies.
+\n4.17    If at the end of the second or any subsequent semester, the cumulative GPA falls below 2.50, s/he shall not be allowed to continue the Program.
+\n4.18    In addition to the successful completion of theory course work, each student shall have to submit a Thesis on their research work or a Report on their Project work, as applicable, fulfilling the requirements as detailed in the subsequent Article no. 7 or 8.
+
+
+        </item>
+        <item>3
+            3.1 Applications for admission to the above programs shall be invited through regular means of advertisement and shall be received by the Registrar office.
+    \n3.2 On the recommendation of the respective ACPG through ECF, the rules for admission into the University for Postgraduate Program shall be framed by the Academic Council from time to time. CASR on its own may, if it deems fit, recommend such rules for admission for approval of the Academic Council.
+    \n3.3 There shall be a Admission Committee in each Department as constituted by the respective ACPG on the recommendation of the Head of the Department.
+    \n3.4 Before being finally selected for admission an applicant may require to sit for an oral and/or written test before the Admission Committee. S/he may require to take pre-requisite course(s) as may be prescribed by the Admission Committee.
+    \n3.5 The selected applicants should complete their course registration and related tasks as per the announcement of the Registrar office of the University.
+        </item>
+
+        <item>4
+        4.1 The minimum duration of M Sc. Engg. / M Engg. Program shall be three semesters and generally not more than 5 (five) Academic Years starting from the date of first registration. Each Academic Year shall consist of two semesters. The duration of a semester will be of minimum 13 (thirteen) weeks.
+\n4.2 The courses of a Program in a Department shall be proposed by the respective ACPG and approved by the Academic Council on the recommendation of respective ECF.
+\n4.3 The courses to be offered by a Department in any semester shall be determined by the respective Department.
+\n4.4 Academic progress of students shall be assessed in terms of credit hours earned by them. In a semester 1 (one) contact hour per week for theory courses or 3 (three) contact hours per week for Thesis/Project represent(s) 1 (one) credit hour. The number of credit hours for each course shall be specified in the syllabus of respective Department.
+\n4.4.1   For the Degree of M Sc. Engg., a student must earn a minimum of 36 credit hours of which 18 credit hours shall be assigned for a Thesis.
+\n4.4.2   For the Degree of M Engg., a student must                     earn a minimum of 36 credit hours of which   6 credit hours shall be assigned for a Project.
+\n4.5 A student may be allowed to switch from M Sc. Engg. to M Engg. on the recommendation of the respective ACPG through Head of the Department before the commencement of a semester.
+\n4.6 A student may be allowed to switch from M Engg. to M Sc. Engg. on the recommendation of the respective ACPG through Head of the Department and concerned Supervisor upon having the approval of the CASR before the commencement of a semester.
+\n4.7 There shall be two categories of student, namely, full-time student and part-time student.
+\n4.8 A full-time student must register a minimum of 12 (twelve) credit hours and a maximum of 15 (fifteen) credit hours per semester. If a full-time student gets an employment while continuing the program, s/he can continue the program as a part-time/full-time student with the written permission or leave from the employer.
+\n4.9 A student, serving in different organizations, may be admitted as part-time student with a written consent of the employer. A part-time student may be allowed to register a maximum of 9 (nine) credit hours in a semester.
+\n4.10    A student may be allowed to switch from part-time to full-time or vice versa on the recommendation of the respective ACPG through the Head of the Department before the commencement of a semester.
+\n4.11    A student may be permitted to withdraw and/or change their registered courses within 3 (three) working weeks from the commencement of that semester on the recommendation of the Course Co-ordinator and the Head of the Department. The concerned course Teacher and authorities will be informed of the decision.
+\n4.12    On the recommendation of the relevant ACPG through CASR and by the approval of the Academic Council, a student may be allowed to transfer a maximum of 9 (nine) credits for M Sc. Engg. and 15 (fifteen) credits for M Engg. of the required theory courses of this University completed by the student at a recognized University/Institute provided that the courses were not taken earlier than 3 (three) calendar years from the date of their first enrollment in the respective program at the University. In addition, the student must obtain a minimum GPA of 3.00 out of 4.00 or its equivalent and those courses should be equivalent to the theory courses offered at the University.
+\n4.13    If a student is unable to complete the final examination of a semester due to serious illness or serious accident or official commitment, s/he may apply to the Registrar in a prescribed form through respective Head of the Department for total withdrawal from the semester within a week after the end of the semester final examination. The application must be supported by a medical certificate from the Chief Medical Officer (CMO), DUET or relevant Official documents. The Academic Council will take the final decision about such application on the recommendation of the relevant ACPG.
+\n4.14    The qualifying requirement for graduation is that a student must earn a minimum CGPA of 2.65 based on the weighted average of their course work.
+\n4.15    2 (two) courses may be repeated for improvement with the prior approval of the Head of the Department on the recommendation of the Course Co-ordinator, provided that the student has a CGPA less than or equal to 2.65. In such cases, the better grade(s) amongst the previous examination and improvement examination would be retained.
+\n4.16    A student shall not be allowed to continue the Program if s/he obtains a total of 4 (four) or more ‘F’ grades during the period of their studies.
+\n4.17    If at the end of the second or any subsequent semester, the cumulative GPA falls below 2.50, s/he shall not be allowed to continue the Program.
+\n4.18    In addition to the successful completion of theory course work, each student shall have to submit a Thesis on their research work or a Report on their Project work, as applicable, fulfilling the requirements as detailed in the subsequent Article no. 7 or 8.
+
+      </item>
+        <item>5
+        5.1 The grading system for assessing the performance of a student in credit courses shall be as follows:
+      </item>
+        <item>6
+       6.1  In addition to class tests, assignments, term papers, etc. there shall be a written examination on all theoretical courses at the end of each semester. The respective course Teacher will be solely responsible for the performance evaluation of a student. The dates of the examinations shall be announced by the Controller of Examinations as advised by the Head of the Department at least 2 (two) weeks before its commencement. The final grade in a theoretical course shall be based on the performance of all class tests, assignments, term papers, etc. and written examination.
+\n6.2 The Controller of Examinations shall keep the up-to-date record of all the grades obtained by students and shall publish the results at the end of each semester. A student may collect a copy of the grade sheet from the office of the Controller of Examinations at the end of each semester. In addition, each student is entitled to 1 (one) official academic transcript after the completion of their academic program from the office of the Controller of Examinations on production of document of clearance from all concerned Departments and payment of the prescribed fees.
+\n 6.3 The respective ACPG shall recommend the names of the paper setters and examiners for the semester final examinations at least 2 (two) weeks before the date of the commencement of the examination to the Vice-Chancellor for approval.
+
+      </item>
+        <item>7
+        7.1 The research work for a thesis shall be carried out under the Supervision of a full-time teacher, who should be the member of ACPG of the relevant Department. A Joint-supervisor/ Co-supervisor within or outside the Department may be appointed (if necessary). The Supervisor, Joint-supervisor/Co-supervisor and the research topic shall be approved by the CASR on the recommendation of ACPG after completion of at least 12 (twelve) credit hours of course work and having a minimum CGPA of 2.65.
+\n7.2 A student shall submit a Thesis proposal to the ACPG through Supervisor. The ACPG shall examine the proposal and recommend it for the approval of the CASR through the Head of the Department. In special circumstances, the ACPG may recommend any subsequent changes in the research topic and forward it through the Head of the Department to CASR for further approval.
+\n7.3 If any change is necessary on the approved Thesis (title, content, cost, Supervisor, Joint-supervisor/Co-supervisor, etc.), it shall be approved by the CASR on the recommendation of the relevant ACPG.
+\n7.4 The research work should normally be carried out at the University. However, if necessary, with the approval of the ACPG, the Supervisor can allow their student to carry out the research work outside the University.
+\n7.5 At the end of a student’s research work and with the consultation of the Supervisor, the student has to submit a Thesis which must be an original contribution to Engineering/ Science and worthy of publication. Each student must submit at least 5 (five) numbers of printed copies of their Thesis in the prescribed format to the Head of the Department on or before a date to be fixed by the Supervisor concerned in consultation with the Head of the Department.
+\n7.6 The student shall have to declare that the research work was carried out by them and has not been submitted elsewhere for the award of any other Diploma or Degree.
+\n7.7 The Thesis should reflect a satisfactory knowledge in the field of research undertaken by the student.
+\n7.8 Each student submitting a Thesis in the partial fulfillment of the requirements of a Degree, shall be required to take an oral examination, on a date or dates fixed by the Supervisor concerned in consultation with the Head of the Department and must satisfy the examiners that s/he is capable of intelligently applying the results of their research to the solution of problems, of undertaking independent work, and also shows evidence of satisfactory knowledge related to the theory and technique used in their research work.
+\n7.9 An Examination Board for each student for Thesis and oral examination shall be approved by the Academic Council through the ACPG and CASR on the recommendation of the Thesis Supervisor. The Supervisor shall act as the Chairman and the Head of the Department will be an Ex-officio member of the Examination Board. The Board shall consist of at least 5 (five) members including the Head of the Department and the Supervisor. The Examination Board shall be constituted as follows:
+\n\n
+\n(i) Supervisor  Chairman
+\n(ii)    Joint/Co-supervisor (if any)    Member
+\n(iii)   Head of the Department  Member(Ex-officio)
+\n(iv)    One or two Teachers from the ACPG of the respective Department  Member
+\n(v) One external member from outside the University/Department  Member(External)
+\n7.10    If any examiner is unable to accept the appointment or has to relinquish their appointment before the examination, the Vice-Chancellor shall appoint another examiner in their place, on the suggestion from the Supervisor in consultation with the Head of the Department. This appointment will be reported to the CASR.
+\n7.11    In case a student fails to satisfy the Examination Board in Thesis and/or oral examination, the student shall be given one more chance to resubmit the Thesis and/or take an oral examination as recommended by the Board.
+
+      </item>
+        <item>8
+        8.1 The Project work shall be carried out under the supervision of a full-time Teacher, who should be the member of ACPG of the relevant Department. The Supervisor and the topic of the Project work shall be approved by the CASR on the recommendation of ACPG after completion of at least 12 (twelve) credit hours of course work and having a minimum CGPA of 2.65.
+\n8.2 A student shall submit a Project proposal to the ACPG through Supervisor. The ACPG shall examine the proposal and recommend it for the approval of the CASR through the Head of the Department. In special circumstances, the ACPG recommend any subsequent changes in the Project topic and forward it through the Head of the Department to CASR for approval.
+\n8.3 If any change is necessary on the approved Project (title, content, cost, Supervisor etc.), it shall be approved by the CASR on recommendation of the relevant ACPG.
+\n8.4 The Project work should normally be carried out at the University. However, if necessary, with the approval of the ACPG, the Supervisor can allow their student to carry out the Project work outside the University.
+\n8.5 At the end of a student’s Project work and with the consultation of the Supervisor the student has to submit a Project report. Each student must submit at least 5 (five) number of printed copies of their Project in the prescribed format to the Head of the Department on or before a date to be fixed by the Supervisor concerned in consultation with the Head of the Department.
+\n8.6 The student shall have to declare that the Project work was carried out by them and has not been submitted elsewhere for the award of any other Diploma or Degree.
+\n8.7 Each student submitting a Project report in partial fulfillment of the requirements of a Degree, shall be required to take at an oral examination, on a date or dates fixed by the Supervisor concerned in consultation with the Head of the Department and must satisfy the examiners that s/he has gained satisfactory knowledge related to the Project work.
+\n8.8 An Examination Board for each student for Project and oral examination shall be approved by the Academic Council through the ACPG and CASR on the recommendation of the Project Supervisor. The Supervisor shall act as the Chairman and the Head of the Department will be an Ex-officio member of the Examination Board. The Board shall consist of at least 5 (Five) members including the Head of the Department and the Supervisor. The Examination Board shall be constituted as follows:
+\n\n(i) Supervisor  Chairman
+\n(ii)    Head of the Department  Member(Ex-officio)
+\n(iii)   At least two Teachers from the ACPG of the respective Department    Member
+\n(iv)    One external member from outside the University/Department  Member(External)
+\n8.9 If any examiner is unable to accept the appointment or has to relinquish their appointment before the examination, the Vice-Chancellor shall appoint another examiner in their place, on the suggestion from the Supervisor in consultation with the Head of the Department. This appointment will be reported to the CASR.
+\n8.10    In case a student fails to satisfy the Examination Board in Project report and/or oral examination, the student shall be given one more chance to resubmit the Project report and/or take an oral examination as recommended by the Board.
+
+      </item>
+        <item>9
+        The admission of a student shall be cancelled from the University on the following grounds:
+\n(i) Non-payment of fees of the University and the Halls of residence within a prescribed period.
+\n(ii)    If the requirements in Article no. 4.16 and 4.17 are not fulfilled by the student.
+\n(iii)   Forced to discontinue their studies by the Board of Discipline.
+\n(iv)    Withdrawn officially from all the courses including Thesis/Project.
+
+      </item>
+        <item>10
+        Academic tuition and fees will be declared and reviewed by the appropriate authority of the University from time to time.
+      </item>
+        <item>11
+        The application for extension of time span of a student should be approved by the Academic Council through CASR on the recommendation of the relevant ACPG. A prescribed form may be used for this purpose. The application must be submitted before the normal time span has elapsed.
+      </item>
+    </string-array>
+
+    <string-array name="PostgraduateRulesAndRegulationsMphil">
+        <item>1. Degrees Offered</item>
+        <item>2. Eligibility for the Applicant</item>
+        <item>3. Admission and Registration Procedures</item>
+        <item>4. Academic Requirements and Regulations</item>
+        <item>5. Grading System</item>
+        <item>6. Conduct of Examination</item>
+        <item>7. Thesis</item>
+        <item>8. Project</item>
+        <item>9. Cancellation of Admission</item>
+        <item>10. Academic Fees</item>
+        <item>11. Extension of Time for Completion of Degree</item>
+
+    </string-array>
+    <string-array name="PostgraduateRulesAndRegulationsMphilDetails">
+        <item>1
+            The Master of Philosophy (M Phil.) / Master of Science (M Sc.) Degrees to be offered by the University under the Rules and Regulations are as follows:
+   \n \n  1.1 Master of Philosophy
+      \n    (a) Master of Philosophy in Mathematics abbreviated as M Phil. (Math)
+       \n   (b) Master of Philosophy in Physics abbreviated as          M Phil. (Phy.)
+      \n    (c) Master of Philosophy in Chemistry abbreviated as     M Phil. (Chem.)
+    \n  \n  1.2 Master of Science
+        \n  (a) Master of Science in Mathematics abbreviated as       M Sc. (Math)
+       \n   (b) Master of Science in Physics abbreviated as M Sc. (Phy.)
+        \n  (c) Master of Science in Chemistry abbreviated as           M Sc. (Chem.)
+   \n  \n   1.3 Any other Masters Degree approved by the Syndicate on the recommendation of Academic Council may also be offered under the Rules and Regulations
+
+
+
+        </item>
+        <item>2
+           2.1  In order to get admission to the M Phil. Degree an applicant
+       \n   a)  must have a minimum GPA of 3.00 out of 5.00 or 2.75 out of 4.00 or a first division in SSC or HSC or Diploma in Engg. or in equivalent examinations; and
+       \n   b)  must have at least 50% marks or a minimum CGPA of 2.75 out of 4.00 or equivalent both in B Sc. Degree or its equivalent and Masters Degree or its equivalent in the relevant branch.
+
+    \n  \n  2.2 In order to get admission to the M Sc. Degree an applicant
+       \n   a)  must have a minimum GPA of 3.00 out of 5.00 or 2.75 out of 4.00 or a first division in SSC or HSC or Diploma in Engg. or in equivalent examinations; and
+        \n  b)  must have a minimum CGPA of 2.75 out of 4.00 or its equivalent in four-year B Sc. Degree or equivalent in the relevant branch.
+
+   \n  \n   2.3 The above requirements may be relaxed for applicants on deputation or sponsored by Academic Institutions/ Research Organizations/International Organizations. Such relaxation shall be recommended by the Admission Committee of the respective Department for approval of Academic Council.
+    \n  \n  2.4 Specific requirements for different Departments are spelled out in the following sections:
+      \n    a)  For Mathematics, an applicant must have obtained a four-year B Sc. Degree or M Sc. Degree with Honours in Mathematics or its equivalent. An applicant with  M Sc. Degree but not having an Honours Degree in Mathematics, Applied Mathematics or Physics must have a first class (or equivalent) in the M Sc. Degree.
+Or
+    B Sc. Degree in Engineering discipline or its equivalent.
+      \n    b)  For Physics, an applicant must have a four-year B Sc. Degree with Honours or M Sc. Degree in Physics or its equivalent. An applicant with M Sc. Degree but not having an Honours Degree in Physics or Applied Physics must have a first class (or equivalent) in the M Sc. Degree.
+Or
+    \n  B Sc. Degree in Engineering discipline or its equivalent.
+     \n     c)  For Chemistry, an applicant must have obtained a four-year B Sc. Degree or M Sc. Degree with B Sc. Honours in Chemistry or its equivalent. An applicant with M Sc. Degree but not having a B Sc. Honours Degree in Chemistry or Applied Chemistry must have a first class (or equivalent) in the M. Sc Degree.
+Or
+   \n   B Sc. Degree in Engineering discipline or its equivalent.
+
+
+        </item>
+        <item>3
+            3.1 Applications for admission to the above programs shall be invited through regular means of advertisement and shall be received by the Registrar office.
+ \n 3.2 On the recommendation of the respective ACPG through ECF, the rules for admission into the University for Postgraduate Program shall be framed by the Academic Council from time to time. CASR on its own may, if it deems fit, recommend such rules for admission for approval of the Academic Council.
+ \n 3.3 There shall be an Admission Committee in each Department as constituted by the respective ACPG on the recommendation of the Head of the Department.
+ \n 3.4 Before being finally selected for admission an applicant may require to sit for an oral and/or written test before the Admission Committee. S/he may require to take pre-requisite course(s) as may be prescribed by the Admission Committee.
+ \n 3.5 The selected applicants should complete their course registration and related tasks as per the announcement of the Registrar office of the University.
+
+
+        </item>
+        <item>4
+            4.1 (a) The minimum duration of the M Phil. Program shall be 4 (four) semesters and generally not more than 5 (five) Academic Years starting from the date of first registration. Each Academic Year shall consist of two semesters. The duration of a semester will be of minimum 13 (thirteen) weeks.
+ \n (b) The minimum duration of the M Sc. Program shall be 3 (three) semesters and generally not more than 5 (five) Academic Years starting from the date of first registration. Each Academic Year shall consist of two semesters. The duration of a semester will be of minimum 13 (thirteen) weeks.
+ \n 4.2 The courses of a Program in a Department shall be proposed by the respective ACPG and approved by the Academic Council on the recommendation of the respective ECF.
+ \n 4.3 The courses to be offered by a Department in any semester shall be determined by the respective Department.
+ \n 4.4 Academic progress of a student shall be assessed in terms of credit hours earned by them. In a semester 1 (one) hour per week theory course or 3 (three) hours per week Thesis represent(s) 1 (one) credit hour. The number of credit hours for each course shall be specified in the syllabus of respective Department.
+
+ \n 4.4.1   (a) For the degree of M Phil. in Mathematics, a student must earn a minimum of 48 credit hours of which 24 credit hours shall be assigned for a Thesis.
+    (b) For the degree of M Sc. in Mathematics, a student must earn a minimum of 36 credit hours of which 18 credit hours shall be assigned for a Thesis.
+ \n 4.4.2   (a) For the Degree of M Phil. in Physics and Chemistry, a student must earn a minimum of 48 credit hours of which 30 credit hours shall be assigned for a Thesis.
+    (b)     For the Degree of M Sc. in Physics and Chemistry, a student must earn a minimum of 36 credit hours of which 18 credit hours shall be assigned for a Thesis.
+ \n 4.5 A student may be allowed to switch from M Sc. to M Phil. on the recommendation of the respective ACPG through Head of the Department before the commencement of a semester.
+ \n 4.6 A student may be allowed to switch from M Phil. to M Sc. on the recommendation of the respective ACPG through Head of the Department and concerned Supervisor upon having the approval of the CASR before the commencement of a semester.
+ \n 4.7 There shall be two categories of student, namely, full-time student and part-time student.
+ \n 4.8 A full-time student must register a minimum of 12 (twelve) credit hours and a maximum of 15 (fifteen) credit hours per semester. If a full-time student gets an employment while continuing the program, s/he can continue the program as a part-time/full-time student with the written permission or leave from the employer.
+ \n 4.9 A student, serving in different organizations, may be admitted as part-time student with a written consent of the employer. A part-time student may be allowed to register a maximum of 9 (nine) credit hours in a semester.
+ \n 4.10    A student may be allowed to switch from part-time to full-time or vice versa on the recommendation of the respective ACPG through the Head of the Department before the commencement of a semester.
+ \n 4.11    A student may be permitted to withdraw and/or change their registered courses within 3 (three) working weeks from the commencement of that semester on the recommendation of the Course Co-ordinator and the Head of the Department. The concerned course Teacher and authorities will be informed of the decision.
+ \n 4.12    On the recommendation of the relevant ACPG through CASR and by the approval of the Academic Council, a student may be allowed to transfer a maximum of 9 (nine) credits for M Sc. and 15 (fifteen) credits for M Phil. of the required theory courses of this University completed by the student at a recognized University/Institute provided that the courses were not taken earlier than 3 (three) calendar years from the date of their first enrollment in the respective program at the University. In addition, the student must obtain a minimum GPA of 3.00 out of 4.00 or its equivalent and those courses should be equivalent to the theory courses offered at the University.
+ \n 4.13    If a student is unable to complete the final examination of a semester due to serious illness or serious accident or official commitment, s/he may apply to the Registrar in a prescribed form through respective Head of the Department for total withdrawal from the semester within a week after the end of the semester final examination. The application must be supported by a medical certificate from the Chief Medical Officer (CMO), DUET or relevant Official documents. The Academic Council will take the final decision about such application on the recommendation of the relevant ACPG.
+ \n 4.14    The qualifying requirement for graduation is that a student must earn a minimum CGPA of 2.65 based on the weighted average of their course work.
+ \n 4.15    2 (two) courses may be repeated for improvement with the prior approval of the Head of the Department on the recommendation of the Course Co-ordinator, provided that the student has a CGPA less than or equal to 2.65. In such cases, the better grade(s) amongst the previous examination and improvement examination would be retained.
+ \n 4.16    A student shall not be allowed to continue the Program if s/he obtains a total of 4 (four) or more ‘F’ grades during the period of their studies.
+ \n 4.17    If at the end of the second or any subsequent semester, the cumulative GPA falls below 2.50, s/he shall not be allowed to continue the Program.
+ \n 4.18    In addition to the successful completion of theory course work, each student shall have to submit a Thesis on their research work or a Report on their Project work, as applicable, fulfilling the requirements as detailed in the subsequent Article no. 7 or 8.
+
+
+        </item>
+        <item>5
+               5.1  The grading system for assessing the performance of a student in credit courses shall be as follows
+
+        </item>
+        <item>6
+           6.1  In addition to class tests, assignments, term papers, etc. there shall be a written examination on all theoretical courses at the end of each semester. The respective course Teacher will be solely responsible for the performance evaluation of a student. The dates of the examinations shall be announced by the Controller of Examinations as advised by the Head of the Department at least 2 (two) weeks before its commencement. The final grade in a theoretical course shall be based on the performance of all class tests, assignments, term papers, etc. and written examination.
+ \n 6.2 The Controller of Examinations shall keep the up-to-date record of all the grades obtained by students and shall publish the results at the end of each semester. A student may collect a copy of the grade sheet from the office of the Controller of Examinations at the end of each semester. In addition, each student is entitled to 1 (one) official academic transcript after the completion of their academic program from the office of the Controller of Examinations on production of document of clearance from all concerned Departments and payment of the prescribed fees.
+ \n 6.3 The respective ACPG shall recommend the names of the paper setters and examiners for the semester final examinations at least 2 (two) weeks before the date of the commencement of the examination to the Vice-Chancellor for approval.
+
+
+
+        </item>
+        <item>7
+               7.1  The research work for a thesis shall be carried out under the Supervision of a full-time teacher, who should be the member of ACPG of the relevant Department. A Joint-supervisor/ Co-supervisor within or outside the Department may be appointed (if necessary). The Supervisor, Joint-supervisor/Co-supervisor and the research topic shall be approved by the CASR on the recommendation of ACPG after completion of at least 12 (twelve) credit hours of course work and having a minimum CGPA of 2.65.
+ \n 7.2 A student shall submit a Thesis proposal to the ACPG through Supervisor. The ACPG shall examine the proposal and recommend it for the approval of the CASR through the Head of the Department. In special circumstances, the ACPG may recommend any subsequent changes in the research topic and forward it through the Head of the Department to CASR for further approval.
+ \n 7.3 If any change is necessary on the approved Thesis (title, content, cost, Supervisor, Joint-supervisor/Co-supervisor, etc.), it shall be approved by the CASR on the recommendation of the relevant ACPG.
+ \n 7.4 The research work should normally be carried out at the University. However, if necessary, with the approval of the ACPG, the Supervisor can allow their student to carry out the research work outside the University.
+ \n 7.5 At the end of a student’s research work and with the consultation of the Supervisor the student has to submit a Thesis which must be an original contribution to Engineering/ Science and worthy of publication. Each student must submit at least 5 (five) numbers of printed copies of their Thesis in the prescribed format to the Head of the Department on or before a date to be fixed by the Supervisor concerned in consultation with the Head of the Department.
+ \n 7.6 The student shall have to declare that the research work was carried out by them and has not been submitted elsewhere for the award of any other Diploma or Degree.
+ \n 7.7 The Thesis should reflect a satisfactory knowledge in the field of research undertaken by the student.
+ \n 7.8 Each student submitting a Thesis in the partial fulfillment of the requirements of a Degree, shall be required to take an oral examination, on a date or dates fixed by the Supervisor concerned in consultation with the Head of the Department and must satisfy the examiners that s/he is capable of intelligently applying the results of their research to the solution of problems, of undertaking independent work, and also shows evidence of satisfactory knowledge related to the theory and technique used in their research work.
+ \n 7.9 An Examination Board for each student for Thesis and oral examination shall be approved by the Academic Council through the ACPG and CASR on the recommendation of the Thesis Supervisor. The Supervisor shall act as the Chairman and the Head of the Department will be an Ex-officio member of the Examination Board. The Board shall consist of at least 5 (five) members including the Head of the Department and the Supervisor. The Examination Board shall be constituted as follows:
+ \n (i) Supervisor  Chairman
+ \n (ii)    Joint/Co-supervisor (if any)    Member
+ \n (iii)   Head of the Department  Member(Ex-officio)
+ \n (iv)    One or two Teachers from the ACPG of the respective Department  Member
+ \n (v) One external member from outside the University/Department  Member(External)
+ \n 7.10    If any examiner is unable to accept the appointment or has to relinquish their appointment before the examination, the Vice-Chancellor shall appoint another examiner in their place, on the suggestion from the Supervisor in consultation with the Head of the Department. This appointment will be reported to the CASR.
+ \n 7.11    In case a student fails to satisfy the Examination Board in Thesis and/or oral examination, the student shall be given one more chance to resubmit the Thesis and/or take an oral examination as recommended by the Board.
+
+        </item>
+        <item>8
+                8.1 The Project work shall be carried out under the supervision of a full-time Teacher, who should be the member of ACPG of the relevant Department. The Supervisor and the topic of the Project work shall be approved by the CASR on the recommendation of ACPG after completion of at least 12 (twelve) credit hours of course work and having a minimum CGPA of 2.65.
+ \n 8.2 A student shall submit a Project proposal to the ACPG through Supervisor. The ACPG shall examine the proposal and recommend it for the approval of the CASR through the Head of the Department. In special circumstances, the ACPG recommend any subsequent changes in the Project topic and forward it through the Head of the Department to CASR for approval.
+ \n 8.3 If any change is necessary on the approved Project (title, content, cost, Supervisor etc.), it shall be approved by the CASR on recommendation of the relevant ACPG.
+ \n 8.4 The Project work should normally be carried out at the University. However, if necessary, with the approval of the ACPG, the Supervisor can allow their student to carry out the Project work outside the University.
+ \n 8.5 At the end of a student’s Project work and with the consultation of the Supervisor the student has to submit a Project report. Each student must submit at least 5 (five) number of printed copies of their Project in the prescribed format to the Head of the Department on or before a date to be fixed by the Supervisor concerned in consultation with the Head of the Department.
+ \n 8.6 The student shall have to declare that the Project work was carried out by them and has not been submitted elsewhere for the award of any other Diploma or Degree.
+ \n 8.7 Each student submitting a Project report in partial fulfillment of the requirements of a Degree, shall be required to take at an oral examination, on a date or dates fixed by the Supervisor concerned in consultation with the Head of the Department and must satisfy the examiners that s/he has gained satisfactory knowledge related to the Project work.
+ \n 8.8 An Examination Board for each student for Project and oral examination shall be approved by the Academic Council through the ACPG and CASR on the recommendation of the Project Supervisor. The Supervisor shall act as the Chairman and the Head of the Department will be an Ex-officio member of the Examination Board. The Board shall consist of at least 5 (Five) members including the Head of the Department and the Supervisor. The Examination Board shall be constituted as follows:
+ \n (i) Supervisor  Chairman
+ \n (ii)    Head of the Department  Member(Ex-officio)
+ \n (iii)   At least two Teachers from the ACPG of the respective Department    Member
+ \n (iv)    One external member from outside the University/Department  Member(External)
+ \n 8.9 If any examiner is unable to accept the appointment or has to relinquish their appointment before the examination, the Vice-Chancellor shall appoint another examiner in their place, on the suggestion from the Supervisor in consultation with the Head of the Department. This appointment will be reported to the CASR.
+ \n 8.10    In case a student fails to satisfy the Examination Board in Project report and/or oral examination, the student shall be given one more chance to resubmit the Project report and/or take an oral examination as recommended by the Board.
+
+
+
+        </item>
+        <item>9
+          The admission of a student shall be cancelled from the University on the following grounds:
+ \n (i) Non-payment of fees of the University and the Halls of residence within a prescribed period.
+ \n (ii)    If the requirements in Article no. 4.16 and 4.17 are not fulfilled by the student.
+ \n (iii)   Forced to discontinue their studies by the Board of                                                                                                             Discipline.
+ \n (iv)    Withdrawn officially from all the courses including Thesis/Project
+
+
+        </item>
+        <item>10
+            Academic tuition and fees will be declared and reviewed by the appropriate authority of the University from time to time.
+        </item>
+
+        <item>11
+            The application for extension of time span of a student should be approved by the Academic Council through CASR on the recommendation of the relevant ACPG. A prescribed form may be used for this purpose. The application must be submitted before the normal time span has elapsed.
+        </item>
+    </string-array>
+    <string-array name="PostgraduateRulesAndRegulationsDoctor">
+        <item>1. Degrees Offered</item>
+        <item>2. Eligibility for the Applicant</item>
+        <item>3. Admission and Registration Procedure</item>
+        <item>4. Appointment of a Supervisor</item>
+        <item>5. Final Registration</item>
+        <item>6. Academic Requirements for the Degree</item>
+        <item>7. Grading System</item>
+        <item>8. Doctoral Committee</item>
+        <item>9. Research Proposal</item>
+        <item>10. Conduct of Examination</item>
+        <item>11. Qualifying Requirements</item>
+        <item>12. Thesis/Dissertation</item>
+        <item>13. Examination Board</item>
+        <item>14. Cancellation of Admission</item>
+        <item>15. Academic Fees</item>
+        <item>16. Extension of Time for Completion of Degree</item>
+    </string-array>
+    <string-array name="PostgraduateRulesAndRegulationsDoctorDetails">
+        <item>1
+           The degree of Doctor of Philosophy (Ph. D) shall be offered by the University in the following Departments:
+    \nDepartment of Civil Engineering
+   \n Department of Electrical and Electronic Engineering
+\nDepartment of Mechanical Engineering
+\nDepartment of Computer Science and Engineering
+   \n Department of Textile Engineering
+   \n Department of Mathematics
+   \n Department of Physics
+   \n Department of Chemistry
+
+\nand any other Doctor of Philosophy (Ph. D) Degree in other Department(s) approved by the Syndicate on the recommendation of Academic Council may also be offered under the Rules and Regulations. The degree of Doctor of Philosophy shall be abbreviated as Ph. D
+        </item>
+        <item>2
+            2.1  In order to get admission to the Ph. D Degree program an applicant
+\na.  must have a minimum GPA of 3.00 out of 5.00 or 2.75 out of 4.00 or a first division or equivalent in SSC or HSC or Diploma in Engg. or in equivalent examinations; and
+\nb.  must have at least 50% marks or a minimum CGPA of 2.75 out of 4.00 or its equivalent in B Sc. Engg. / Four-year B Sc. degree or M Sc. degree in the relevant branch.
+\nc.  must have a minimum CGPA of 2.75 out of 4.00 or its equivalent in Masters degree in the relevant branch.
+\nd.  The above requirements may be relaxed for applicants on deputation or sponsored by Academic Institutions / Research Organizations / International Organizations. Such relaxation shall be recommended by the Admission Committee of the respective Department for approval of Academic Council.
+\n2.2 Specific requirements for different Departments are spelled out in the following sections:
+\na.  For Engineering disciplines, the minimum qualification for admission shall normally be an M Sc. Engg. /     M Engg. Degree in the appropriate branch of engineering or its equivalent from any recognized Institution.
+\nb.  For Mathematics, the minimum qualification for admission shall normally be an M.Sc. / M Phil. Degree in Mathematics or its equivalent from any recognized Institution.
+                 OR
+\nc.  Masters Degree in Physics / Engineering discipline or its equivalent.
+\nd.  For Physics, the minimum qualification for admission shall normally be an M.Sc. / M Phil. Degree in Physics or its equivalent from any recognized Institution.
+OR
+  \n      Masters Degree in Engineering discipline or its equivalent.
+\ne.  For Chemistry, the minimum qualification for admission shall normally be an M.Sc. / M Phil. Degree in Chemistry or its equivalent from any recognized Institution.
+OR
+\nMasters Degree in Engineering discipline or its equivalent.
+
+
+        </item>
+        <item>3
+            3.1 An applicant may apply to the Registrar for provisional admission to the Ph. D program in any semester.
+\n3.2 There shall be a Admission Committee in each Department as constituted by the relevant ACPG on recommendation of the Head of the Department.
+\n3.3 A selected applicant by the Admission Committee shall be provisionally admitted and may be required to pass the prerequisite non-credit courses as prescribed by the Admission Committee.
+\n3.4 The selected applicants should complete their course registration and related tasks as per the announcement of the Registrar office of the University.
+
+
+        </item>
+        <item>4
+            On provisional admission, the Admission Committee as constituted in Article no. 3.2 shall submit a name of a Supervisor who shall be a full-time faculty member belonging to the relevant Department and a Joint-supervisor / Co-supervisor from within or outside the Department (if necessary). These selections have to be approved by the CASR. The supervisor shall prescribe a plan of study to be undertaken by the student and supervise the progress of the candidate’s work.
+
+
+        </item>
+        <item>5
+               A provisionally admitted student shall be deemed to be eligible for final registration as a Ph. D student with effect from the date of their provisional admission after s/he passes the comprehensive examination
+        </item>
+        <item>6
+           6.1  A student must complete all requirements for the Ph. D Degree within a maximum of 7 (seven) academic years (session) and not less than 3 (three) academic years (session) from the date of their provisional admission.
+\n6.2 Academic progress shall be assessed in terms of Credit hours earned by a student. One Credit hour subject shall normally require 13 (thirteen) weeks of lecture for one semester while one Credit hour for Thesis work should normally require 39 (thirty nine) hours of research work for one semester. The number of credit hours for each course shall be as specified in the syllabus of the respective Department.
+\n6.3 A student must complete a minimum of 54 credit hours of which 45 credit hours shall be assigned for a Thesis.
+\n6.4 There shall be two categories of student, namely, full-time student and part-time student.
+\n6.4.1   A student may enroll as a part-time student. A student, serving in different organizations, may also be admitted as part time students with the written consent of the employer. A part time student may be assigned a maximum of 9 (nine) credit hours of course including Thesis work in any semester.
+\n6.4.2   A full-time student must register for a minimum of 12 (twelve) credit hours and a maximum of 15 (fifteen) credit hours per semester. A full-time student shall not be allowed to be in the employment of any organization (even as a part-time employee). However, they may be employed as Teaching/Research Assistant at the University. If a full time student becomes an employee (full time or part time) of any other organization in the middle of a semester, s/he may, with the approval of the Head of the Department and their Employer, be allowed to continue as a full-time student for that semester.
+\n6.4.3   A student may be allowed to switch from part-time to full-time or vice versa on the recommendation of the respective Doctoral Committee before the commencement of a semester.
+\n6.5 The courses of study in the different Departments shall be as recommended by the respective ACPG and the Faculty / CASR and approved by Academic Council.
+\n6.6 The courses that may be offered in any semester shall be as decided by the relevant Department.
+\n6.7 A student on the recommendation of the relevant ACPG and as approved by the CASR may be allowed to transfer a maximum of 3.0 credits of the courses completed by the student at a recognized institution provided that the courses were not taken earlier than 5 (five) calendar years from the date of their first enrollment in the respective program at DUET and that the student obtained a minimum GPA of 3.00 out of 4.00 or its equivalent in such courses and that the courses are equivalent to the approved courses of DUET
+  </item>
+        <item>7
+               7.1  The grading system for assessing the performance of a student in credit courses shall be as follows:
+        </item>
+        <item>8
+                A Doctoral Committee for each student shall be proposed by the Supervisor in consultation with the Head of the Department. The committee shall be approved by the CASR on recommendation of the ACPG. The Committee shall be formed within 1 (one) year from the date of the student’s provisional admission. The Committee shall consist of at least five members but shall not exceed seven including the Head of the Department and the Supervisor. The Doctoral Committee shall be constituted as follows:
+\n(i) Supervisor  Chairman
+\n(ii)    Joint/Co-supervisor (if any)    Member
+\n(iii)   Head of the Department  Member(Ex-officio)
+\n(iv)    At least two Teachers from the ACPG of the relevant Department  Member
+\n(v) At least one external member from outside the University/Department Member(External)
+The Doctoral Committee should meet from time to time on the request of the Supervisor to review the progress of the student. Under special circumstances CASR may approve any addition and/or alteration in the Doctoral Committee on the recommendation of the Supervisor through the Head of the Department.
+ 
+
+
+        </item>
+        <item>9
+          9.1   The student, after passing the comprehensive examination, shall submit a research proposal to the Doctoral Committee which shall examine the proposal and recommend it for the approval of the CASR through the Head of the Department. In special circumstances the Doctoral Committee may recommend through the Head of the Department to CASR for approval of any subsequent changes in the research proposal.
+\n9.2 Research work for a Dissertation shall be carried out at this University or at a place(s) recommended by the Doctoral Committee. The work schedule and financial involvement should be mentioned in the research proposal for carrying out research work outside the university.
+        </item>
+        <item>10
+           10.1 In addition to class tests, assignments, term papers etc. there shall be a written examination on all theoretical courses at the end of each semester. The respective course teacher will be solely responsible for the performance evaluation of a student. The dates of the examinations shall be announced by the Controller of Examinations as advised by the Head of the Department at least 2 (two) weeks before its commencement. The final grade in a theoretical course shall be based on the performance of all class tests, assignments, term paper and written examination.
+\n10.2     The Controller of Examinations shall keep the up-to-date record of all the grades obtained by students and shall publish the results at the end of each semester. A student may collect a copy of the grade sheet from the office of the Controller of Examinations at the end of each semester. In addition, each student is entitled to 1 (one) official academic transcript after the completion of their academic program from the office of the Controller of Examinations on production of the document of clearance from all concerned Departments and payment of the prescribed fees.
+\n10.3    The respective ACPG shall recommend the names of the paper setters and examiners for the semester final examinations at least 2 (two) weeks before the date of the commencement of the examination to the Vice-Chancellor for approval.
+        </item>
+
+        <item>11
+            11.1    Course Work
+\nTo qualify for the degree a student must earn a minimum Grade Point Average (GPA) of 2.75 out of 4.00 based on the weighted average of Grade Points (GP) in their course work.
+      \n  11.1.1  2 (two) courses may be repeated for improvement with the prior approval of the Head of the Department on the recommendation of Supervisor.
+     \n   11.1.2  A student obtaining ‘F’ grade in a course may be allowed to repeat the course with the prior approval of Head of the Department on the recommendation of Supervisor. Such approval shall be reported to the ACPG.
+   \n 11.2    A student shall not be allowed to continue the program if s/he obtains a total of 2 (two) or more ‘F’ grades in one or more than one courses taken together, during the period of their studies.
+  \n  11.3    Comprehensive Examination
+   \n     The date(s) and time of the comprehensive examination shall be fixed by the Doctoral Committee on the request of the Supervisor. The comprehensive examination shall be held after the completion of the course work by the student. The theory courses should be completed within 3 (three) semesters.
+      \n  The comprehensive examination shall comprise a written examination and/or an oral examination to test the knowledge of the student in their field of study and research.
+     \n   The Doctoral Committee shall conduct the comprehensive examination. If a student fails in a comprehensive examination s/he shall be given one more chance to take the examination as scheduled by the Doctoral Committee.
+  \n  11.4    In addition to successful completion of course works and comprehensive examination every student shall submit a Thesis/Dissertation on their research work fulfilling the requirements.
+
+
+        </item>
+
+        <item>12
+            12.1    At the end of the student’s research work the student shall submit a Thesis/Dissertation which must be an original contribution to Engineering/Science and worthy of publication. At least 6 (six) printed copies of the Thesis/Dissertation in the prescribed format must be submitted to the Head of the Department.
+   \n 12.2    The student shall certify that the research work was done by them and that this work has not been submitted elsewhere for any other purpose (except for publication).
+   \n 12.3    On the completion of the research work and submission of the Thesis/Dissertation an oral examination shall be arranged on a date(s) fixed by the Supervisor in consultation with the Head of the Department in which the student shall defend their research work. The student must satisfy the examiners (as constituted in Article no. 14.1) that s/he is capable of intelligently applying the results of his/her research work to the solution of problems, of undertaking independent research and afford evidence of satisfactory knowledge related to the theory and technique used in their research work.
+   \n 12.4    In order to qualify for the Degree, a student must have 2 (two) numbers of publications (of which at least one should be published in a journal) relevant to their research work.
+
+        </item>
+        <item>13.
+
+            13.1    An Examination Board for each student for Thesis/Dissertation and oral examination shall consist of the Doctoral Committee and one or more external examiner(s) to be approved by the Academic Council through the CASR on the recommendation of the Thesis/Dissertation Supervisor in consultation with the Head of the Department. The Board shall consist of at least 6 (six) and maximum 8 (eight) members including the Head of the Department and the Supervisor. The Supervisor shall act as the Chairman of the Examination Board. At least one external examiner shall be appointed from outside the University (DUET). If the external examiner is appointed from outside the country a copy of the Thesis/Dissertation should be sent to them for their evaluation and their written opinion be placed before the Examination Board.
+   \n 13.2    If any examiner is unable to accept the appointment or has to relinquish their appointment before/during the examination, the Vice- Chancellor shall appoint another examiner in their place, on the suggestion from the Supervisor in consultation with the Head of the Department. This appointment will be reported to the CASR.
+   \n 13.3    In case a student fails to satisfy the Examination Board in Thesis/Dissertation and /or oral examination, the student shall be given one more chance to resubmit the Thesis/Dissertation and/or appear in oral examination as recommended by the Board
+
+        </item>
+
+        <item>14.
+
+            The admission of a student shall be cancelled by the University on the following grounds:
+\n(i) Non-payment of dues of the University and the Halls of residence within a prescribed period.
+\n(ii)    If the requirements in Article no. 11.2 and 11.3 are not fulfilled by the student.
+\n(iii)   Forced to discontinue their studies by the Board of Discipline.
+\n(iv)    Withdrawn officially from the Ph. D program.
+
+        </item>
+        <item>15.
+            Academic fees will be reviewed by the appropriate authority of  the University from time to time.
+
+        </item>
+        <item>16
+            The application for extension of time span of a student should be approved by the Academic Council through CASR on the recommendation of the Doctoral Committee. A prescribed form may be used for this purpose. The application must be submitted before the normal time span has elapsed.
+        </item>
+    </string-array>
+
+
     <string-array name="year">
         <item>First Year Second Semester</item>
         <item>Second Year First Semester</item>
@@ -571,80 +1160,13 @@ A student may take additional courses with the consent of his/her adviser in ord
     </string-array>
 
     <string-array name="menu">
-        <item>Booklet</item>
+        <item>Curriculum</item>
         <item>Act</item>
         <item>Rules</item>
         <item>About</item>
 
     </string-array>
-    <string name="cseh">Department of Computer Science and Engineering</string>
-    <string name="cse">
-        In order to prepare potential and productive persons in industry, academia, as well as in government sector, in the undergraduate and postgraduate programs of the department of CSE of DUET, an excellent environment of teaching, learning, and research in computing and IT has been maintained from the very past. In particular, to perform world-class research in selected areas of computing (such as Speech Signal Processing, Advanced Microprocessor Architecture, Reliable and Low Power Multi-core Processor Design, Data Warehouse and Mining, Operating Systems, Wireless Network, Networking, Image Processing and Computer Vision, Artificial Intelligence and Neural Network, Algorithm Design and Analysis). The mission of the department is to earn reputation nationally and internationally for research in different areas. The faculty members are enriched in diversified fields and are involved in updated research work. To provide quality, cutting-edge educational experiences, the department aims to provide students with strong conceptual foundations, and also expose them to the forefront of the developments in the field of computing. The department’s other vision includes providing state-of-the-art computer education and training to all students at DUET to bring them to the level of knowledge and ability.
-        The Department of Computer Science and Engineering maintains well-equipped laboratories for graduate and undergraduate research work. The laboratories are: (1) Software lab, (2) Network lab, (3) Digital Electronics lab, and (4) Multimedia lab. In addition, a BdREN datacenter maintained by the CSE department has the most advanced servers, routers, and switches.
-        Scope of Computer Science and Engineering
-        The academic objectives of the Department of Computer Science and Engineering (CSE) are to provide outstanding education and research programs that can:Promote a philosophy of learning with the development of a computer science/engineering student body to be prepared for their specific profession, for advanced studies and careers in research with multidisciplinary knowledge.Provide a stimulating academic research environment for individuals who would be capable to work in both industry and academia, and would be the leaders in the demonstration of professional skills and in the development of new technology for the benefit of society.
-        For more Information
-        Head
-        Department of Computer Science and Engineering
-        Dhaka University of Engineering and Technology, Gazipu
-        Gazipur-1700
-        Phone : +88-02-9204711, +88-02-9204734-53, Ext. 3201 (Off.)
-        Fax : +88-02-9204701, +88-02-9204702
-        E-mail: head_cse@duet.ac.bd
-        Web : www.duet.ac.bd/cse
-    </string>
 
-    <string name="eeeh">Department of Electrical and Electronics Engineering</string>
-    <string name="eee">
-    Electricity is the most conducive part of the modern technology based life. Even all other technology, which is thought as munificent to human life, is also electricity or electronically controlled. The professional activities of electrical engineers directly affect the everyday lives of most of the world’s population. They are responsible for the design and development of radio and television transmitters and receivers, telephone networks and switching systems, computer systems, and electric power generation and distribution. Within the broad scope of these systems, the electrical engineer is concerned with a challenging and diverse array of design and development problems. The students who earn a B. Sc. Engineering degree from the department of Electrical and Electronic Engineering will be involved in a variety of electrical and electronic problems in the course of their careers.
-    Scope of Electrical and Electronic Engineering
-    The Department of Electrical and Electronic Engineering plays a major role in the development of science and technology. This role is more important as the use of electronic devices and electric power is increasing in many technologies, such as VLSI, lasers, material processing, optoelectronic devices, robotics, communication, computer technology, micro-machine, electric power supply, various types of control systems etc. Since the areas covered by Electrical and Electronic Engineering are increasing, the Department provides a broad curriculum to its students to adequately address those issues. Hence The students can choose their educational program according to their interests. They can choose a program that is partly related to electronic devices, electronic applications, and/or computer and communication. Besides the theoretical knowledge, intensive care is also given so that an engineer becomes pragmatic in terms of his/her respective area of specialization. In addition, the Department of Electrical and Electronic Engineering of DUET, Gazipur offers postgraduate studies and research for higher degree leading to M. Sc. Engg., M. Engg. and Ph. D. To reciprocate such venture, the department offers financial assistance to the brilliant students. The Department is also incarnated with other activities, such as, expert level training on the appropriate field for the faculty members to develop human resources, consulting different organizations to facilitate them and exchanging knowledge with different national and international universities, etc.
-    For more Information
-    Head
-    Department of Electrical and Electronic Engineering
-    Dhaka University of Engineering and Technology, Gazipur
-    Gazipur-1700
-    Phone : +88-02-9204709, +88-02-9204734-53, Ext. 3011 (Off.)
-    Fax : +88-02- 9204709, +88-02- 9204702
-    E-mail: Head_eee@duet.ac.bd
-    Web : www.duet.ac.bd/eee
-    </string>
-    <string name="meh">Department of Mechanical Engineering </string>
-    <string name="me">
-        Scope of Electrical and Electronic Engineering
-    The Department of Electrical and Electronic Engineering plays a major role in the development of science and technology. This role is more important as the use of electronic devices and electric power is increasing in many technologies, such as VLSI, lasers, material processing, optoelectronic devices, robotics, communication, computer technology, micro-machine, electric power supply, various types of control systems etc. Since the areas covered by Electrical and Electronic Engineering are increasing, the Department provides a broad curriculum to its students to adequately address those issues. Hence The students can choose their educational program according to their interests. They can choose a program that is partly related to electronic devices, electronic applications, and/or computer and communication. Besides the theoretical knowledge, intensive care is also given so that an engineer becomes pragmatic in terms of his/her respective area of specialization. In addition, the Department of Electrical and Electronic Engineering of DUET, Gazipur offers postgraduate studies and research for higher degree leading to M. Sc. Engg., M. Engg. and Ph. D. To reciprocate such venture, the department offers financial assistance to the brilliant students. The Department is also incarnated with other activities, such as, expert level training on the appropriate field for the faculty members to develop human resources, consulting different organizations to facilitate them and exchanging knowledge with different national and international universities, etc.
-    For more Information
-    Head
-    </string>
-    <string name="csetext">Department of Computer Science and Engineering
-Undergraduate Curriculum
-
-Syllabus  Session (2015-2016)
-1st Year 1st Semester (Exempted)
-Sl.	Course No.	Course Title	Cr.
-1	Math-141	Mathematics – I	3
-2	Ph-141	Physics – I	3
-3	Ph-142	Physics – I Sessional	1.5
-4	Ch-141	Chemistry-I	3
-5	Ch-142	Chemistry-I Sessional	1.5
-6	CSE-115	Computer Fundamentals	3
-7	CSE-116	Computer Fundamentals Sessional	1.5
-8	Hum-141	Government and Sociology	4
-Total	20.5
- 
-1st Year 2nd Semester
-Sl.	Course No.	Course Title	Cr.
-1	CSE-1121	Structured Programming Language	4
-2	CSE-1122	Structured Programming Language Sessional	1.5
-3	 CSE-1823	Digital Logic and System Design	3
-4	CSE-1824	Digital Logic and System Design Sessional	0.75
-5	CSE-1124	Drawing and CAD Project Sessional	0.75
-6	Math-1421	Mathematics – II	4
-7	Ph-1423	Physics – II	4
-8	Ph-1424	Physics – II Sessional	0.75
-9	Hum-1427	English and Economics	3
-Total	21.75
-</string>
 
     <string name="title_activity_me_first_year_first_semester">MeFirstYearFirstSemester</string>
     <string name="title_activity_me_second_year_first_semester">Sign in</string>

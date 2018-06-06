@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.techfar.service.duetbooklet.PostGraduateRulesMphilGradingSystem">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="#a1201a"
+            android:layout_width="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo3"/>
+            <TextView
+                android:id="@+id/contentUndergraduateRulesHead"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#7af294"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dhaka University of Engineering And Technology,Gazipur"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/topicTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="5. Grading System"
+                android:textColor="#030303"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:maxLines="50"
+                android:text="5.1	The grading system for assessing the performance of a student in credit courses shall be as follows:"
+                android:textColor="#030303"
+                android:textSize="16dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/mphilgradingsytem1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:maxLines="50"
+                android:text="All the final grades for the course of M Phil. / M Sc. will be recorded in letter grade system. The Grade Point Average (GPA) shall be computed for each semester. The GPA will be calculated as follows:"
+                android:textColor="#030303"
+                android:textSize="16dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/mphilgradingsytem2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:maxLines="50"
+                android:text="where, n is the number of courses passed by the student during the semester, Ci is the number of credits allotted to a particular course and Gi is the grade point corresponding to the grade awarded for that course(s). The overall or Cumulative GPA gives the cumulative performance of the student from first semester up to any other semester to which it refers and is computed by dividing total grade points (∑▒C_i  G_i) accumulated up to the date by the total credit hours (∑▒C_i ). Both GPA and Cumulative GPA will be rounded off to the second place of decimal for representing/reporting.
+	\nCourse(s) in which a student gets ‘F’ grade shall not be counted towards credit hour requirements and for the calculation of GPA. Students may repeat the ‘F’ graded course(s) if it is offered again.
+	\nThe ‘B’ and ‘C’ grades, up to a maximum of two courses, may be ignored for calculation of GPA on the written request of the student to the Head of the Department and on the recommendation of the Course Co-ordinator, provided that the student has to fulfill the total course credit hour requirements in the remaining courses with a minimum GPA of 2.65.
+	\nThe performance in all the courses including all the ‘F’ grades shall be reflected in the transcript.
+	\nGrade ‘I’ will be given only when a student is unable to sit for the examination of a course at the end of the semester because of circumstances beyond of their control. To get ‘I’ grade, s/he must apply to the Head of the Department through the respective course Teacher within 1 (one) week after the examination of the respective course. S/he has to complete the course within the next 2 (two) consecutive semesters; otherwise s/he will get ‘F’ grade in that course. If that course is not offered within the next 2 (two) consecutive semesters, the student can take any other offered course as a replacement on the recommendation of ACPG. A student can apply for an ‘I’ grade for a maximum of 4 (four) same/different courses.
+	\nSatisfactory (‘S’) and Unsatisfactory (‘U’) shall be used for final grading of the performance of Thesis/Project and non-credit courses. An ‘X’ grade shall be recorded for Thesis/Project continuation.
+	\nA student may enroll for non-credit course(s) termed as audit course(s) on the recommendation of their Thesis/Project Supervisor and Head of the Department.
+"
+                android:textColor="#030303"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
