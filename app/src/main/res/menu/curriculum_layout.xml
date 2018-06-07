@@ -5,7 +5,6 @@
         android:title="Landscape"
         android:icon="@drawable/landscape"
         app:showAsAction="always" />
-
     <item
         android:id="@+id/Portrait"
         android:title="Portrait"

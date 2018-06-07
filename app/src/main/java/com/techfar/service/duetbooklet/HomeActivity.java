@@ -1,7 +1,10 @@
 package com.techfar.service.duetbooklet;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.net.Uri;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -69,13 +72,14 @@ catch (Exception ex)
 }
 
     }
-    //Menu items
+    //Menu items///////////////////////////////////////////////////
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater=getMenuInflater();
         menuInflater.inflate(R.menu.main,menu);
         return super.onCreateOptionsMenu(menu);
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
@@ -89,7 +93,36 @@ catch (Exception ex)
             in.putExtra(Intent.EXTRA_TEXT,body);
             startActivity(Intent.createChooser(in,"Share this app using "));
         }
+        if(item.getItemId()==R.id.update)
+        {
+            Intent intent = new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("https://drive.google.com/drive/u/0/folders/1Bkr6aSU-nVauD-FX6l_36YaI0hwZpf55"));
+            startActivity(intent);
+        }
+
 
         return super.onOptionsItemSelected(item);
+    }
+    //AlertDialog//////////////////////////////////
+    @Override
+    public void onBackPressed(){
+        final AlertDialog.Builder builder=new AlertDialog.Builder(HomeActivity.this);
+        builder.setMessage("Are you sure to exit ?");
+        builder.setCancelable(true);
+
+        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                finish();
+            }
+        });
+        builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.cancel();
+            }
+        });
+        AlertDialog alertDialog=builder.create();
+        alertDialog.show();
     }
 }

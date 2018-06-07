@@ -31,10 +31,10 @@ public class CseProgramActivity extends AppCompatActivity {
                 if (value.equals("Under Graduate Programme")) {
                     Intent in = new Intent(CseProgramActivity.this, CseYearActivity.class);
                     startActivity(in);
-                } /*else if (value.equals("Post Graduate Programme")) {
-                    Intent in = new Intent(CseProgramActivity.this, CseYearActivity.class);
+                } else if (value.equals("Post Graduate Programme")) {
+                    Intent in = new Intent(CseProgramActivity.this, CsePostGraduateCurriculum.class);
                     startActivity(in);
-                }*/
+                }
 
 
             }

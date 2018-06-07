@@ -72,8 +72,7 @@
             android:parentActivityName=".CseYearActivity" />
         <activity
             android:name=".CseSecondYearFirstSemester"
-            android:parentActivityName=".CseYearActivity"
-            android:screenOrientation="landscape" />
+            android:parentActivityName=".CseYearActivity" />
         <activity android:name=".splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -149,7 +148,9 @@
         <activity android:name=".ContentPostgraduateRulesAndRegulationsDoctorActivity" />
         <activity android:name=".PostGraduateRulesDoctorGradingSystem" />
         <activity android:name=".WebviewGithub" />
-        <activity android:name=".ContentSyllabusDetails"></activity>
+        <activity android:name=".ContentSyllabusDetails" />
+        <activity android:name=".CsePostGraduateCurriculum" />
+        <activity android:name=".ContentSyllabusMscDetails"></activity>
     </application>
 
 </manifest>

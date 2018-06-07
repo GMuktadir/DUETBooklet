@@ -5,15 +5,9 @@
         android:title="Share"
         app:showAsAction="never" />
     <item
-        android:id="@+id/Landscape"
-        android:title="Landscape"
-        app:showAsAction="never" />
-
-    <item
-        android:id="@+id/Portrait"
-        android:title="Portrait"
-        android:icon="@drawable/computer"
-        app:showAsAction="never" />
+        android:id="@+id/update"
+        android:title="Check update"
+        app:showAsAction="never"/>
 
     <item
         android:id="@+id/developers"
